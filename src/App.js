@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Text from './Components/Text';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>projet ensemble</h2>
+      <div className="">
+        <div className="">
+          <Text></Text>
         </div>
-        <p className="App-intro">
-          Hello, edit <code>src/App.js</code> and save to reload.
+        <p className="">
         </p>
       </div>
     );

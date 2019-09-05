@@ -1,0 +1,1 @@
+/* Composant "Dates" qui apparaîtra dans les Vignettes avec chaque image. Date est un enfant de Vignette */

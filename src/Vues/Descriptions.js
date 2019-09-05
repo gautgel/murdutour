@@ -1,0 +1,1 @@
+// Composant avec des paragraphes qui seront modifiés il y aura donc des props pour le style

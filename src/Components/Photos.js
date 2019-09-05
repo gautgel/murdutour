@@ -1,0 +1,1 @@
+// composant photo enfant du composant vignette
