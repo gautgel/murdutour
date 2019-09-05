@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Text from './Components/Text';
+import VignetteParent from './Components/Vignettes';
+
 class App extends Component {
   render() {
     return (
-      <div className="">
+      <div className="MurDesHeros">
+        <VignetteParent></VignetteParent>
         <div className="">
-          <Text></Text>
         </div>
         <p className="">
         </p>

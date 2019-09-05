@@ -2,11 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Picture{
+  height: 200px;
+  width: auto;
+  background-color: aquamarine;
 }
-
+.Picture img{
+  height: 100%;
+  width: auto;
+}
 .App-header {
   background-color: #222;
   height: 150px;
