@@ -8,7 +8,11 @@ class Mur extends Component {
         this.state = {  }
     }
 
-    _onclick
+    _onclick=(e)=>{
+        console.log("click")
+        console.log(e.currentTarget.dataset.id)
+
+    }
 
     AfficherVignette=()=>{
         console.log(datas)
@@ -19,7 +23,7 @@ In the synthax of map makes a "loop" in a table so you have to be careful I stor
 
         /* The map function automatically returns returns, so you must redefine each time*/
 
-        return  <VignetteParent key={`vignette_${index}`} url={item.fiche[0].des1[0].url} id={item.id} date={item.fiche[0].date}></VignetteParent>
+        return  <VignetteParent key={`vignette_${index}`} url={item.fiche[0].des1[0].url} id={item.id} date={item.fiche[0].date} _onclick={(e)=>this._onclick(e)}></VignetteParent>
     })
     /*request a return of the result of the map function  */
     return result

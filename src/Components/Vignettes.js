@@ -10,7 +10,7 @@ import PhotosCyclistes from "./Photos"
 
 const VignetteParent=(props)=> {
   return (
-      <div id={props.id} style={{background: props.color}} className="vignette" onClick={(e)=>props._onclick(e)}>
+      <div data-id={props.id} style={{background: props.color}} className="vignette" onClick={props._onclick}>
         <PhotosCyclistes _url={props.url}></PhotosCyclistes>
           <Text texte={props.date}></Text>
       </div>
