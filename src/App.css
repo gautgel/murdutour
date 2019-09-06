@@ -1,6 +1,7 @@
 .vignette{
   height: 250px;
   width: 250px;
+  background: wheat;
 }
 .vignette img{
   height: 100%;
