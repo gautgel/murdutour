@@ -1,19 +1,11 @@
-import React, { Component } from "react";
-import photo from "./velo.jpg";
-
+import React from 'react';
 /* ******************************************
 Elodie=> "Class" photo component that returns
 the img (fixed for the moment)
 *********************************************/
-
-class PhotosCyclistes extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return <img src={photo} alt="img du coureur" />;
-  }
+const PhotosCyclistes=(props)=>
+  {
+    return <img src={props._url} alt=""/>;
 }
 
 export default PhotosCyclistes;

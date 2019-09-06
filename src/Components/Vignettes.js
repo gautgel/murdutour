@@ -6,25 +6,15 @@ import PhotosCyclistes from "./Photos";
 /* *********************************************************Elodie=> Thumbnail component that will encompass the photo and date (compo text for the date)
 *********************************************************/
 
-class VignetteParent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
+const VignetteParent=(props)=> {
     return (
-      <div className="Picture">
-       <PhotosCyclistes></PhotosCyclistes>
+      <div style={{background: props.color}} className="vignette">
+        <PhotosCyclistes></PhotosCyclistes>
         <div>
-          <Text
-            description={
-              "2019"
-            }
-          ></Text>
+          <Text></Text>
         </div>
       </div>
     );
   }
-}
 
 export default VignetteParent;
