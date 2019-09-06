@@ -1,1 +1,1 @@
-const 
+export const chemin = "assets/img";

@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import data from"../data/datas"
+import React from "react";
 /*********************************************************
 Elodie :This "function" component is functional and has been tested in the App.js
 ********************************************************/

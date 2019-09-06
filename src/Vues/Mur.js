@@ -8,16 +8,18 @@ class Mur extends Component {
         this.state = {  }
     }
 
+    _onclick
+
     AfficherVignette=()=>{
+        console.log(datas)
         /* Elodie =>
-        
 In the synthax of map makes a "loop" in a table so you have to be careful I store the data in a const */
 
-    const result=datas.map((item)=>{
+    const result=datas.map((item,index)=>{
 
         /* The map function automatically returns returns, so you must redefine each time*/
 
-        return  <VignetteParent id={item.id} name={item.name}></VignetteParent>
+        return  <VignetteParent key={`vignette_${index}`} url={item.fiche[0].des1[0].url} id={item.id} date={item.fiche[0].date}></VignetteParent>
     })
     /*request a return of the result of the map function  */
     return result
