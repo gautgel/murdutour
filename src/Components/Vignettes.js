@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Text from "./Text";
-import photo from "./velo.jpg";
 import '../App.css';
+import PhotosCyclistes from "./Photos";
 
-/*  Composant parent de Dates.js et de Photos.js*/
+/* *********************************************************Elodie=> Thumbnail component that will encompass the photo and date (compo text for the date)
+*********************************************************/
 
 class VignetteParent extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class VignetteParent extends Component {
   render() {
     return (
       <div className="Picture">
-        <img src={photo} alt="img du coureur" />
+       <PhotosCyclistes></PhotosCyclistes>
         <div>
           <Text
             description={
