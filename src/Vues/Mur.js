@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
 import { datas } from '../data/datas'
 import VignetteParent from '../Components/Vignettes'
+import Fiche from './Descriptions';
 
 class Mur extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = { 
+            isfiche: 0,
+            id: 0
+        }
     }
 
     _onclick=(e)=>{
         console.log("click")
-        console.log(e.currentTarget.dataset.id)
+        
+        this.setState({
+            isfiche: 1,
+            id : e.currentTarget.dataset.id
+        })
 
+    }
+
+    retour=(e)=>{
+        console.log(e)
+        this.setState({
+            isfiche: 0
+        })
     }
 
     AfficherVignette=()=>{
@@ -30,9 +45,11 @@ In the synthax of map makes a "loop" in a table so you have to be careful I stor
     }
     render() { 
         /* return the function map to get the result */
-        return (             
+        return (
             <div className="mur">
-                {this.AfficherVignette()}
+                {
+                    this.state.isfiche===0 ? this.AfficherVignette() : <Fiche retour={(e)=>this.retour(e)}></Fiche>
+                }
             </div>
         );
     }
