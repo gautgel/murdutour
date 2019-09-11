@@ -1,6 +1,5 @@
 // Composant avec des paragraphes qui seront modifiés il y aura donc des props pour le style 
 import React, { Component } from 'react';
-import {construction} from '../Vues/Mur';
 
 class Fiche extends Component {
     constructor(props) {

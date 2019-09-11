@@ -23,13 +23,16 @@ class Mur extends Component {
             this.construction();
         }
     }
+
     construction=()=>{
         const mur = document.querySelector(".mur");
+
         
         const vigX = cols * 10;
         const vigY = rows * 5;
         const borderMur = 20;   
-
+        
+        console.log(vigX, vigY);
         const top = vigY + borderMur;
 
         const left = vigX + borderMur;
@@ -43,11 +46,8 @@ class Mur extends Component {
         const transX = X/2;
         const transY = Y/2;
 
-        const margX = transX/2;
-        const margY = transY/2;
-
         console.log(transX, transY);
-        console.log(margX, margY);
+        
 
         
         mur.style.display="grid";
@@ -55,6 +55,48 @@ class Mur extends Component {
         mur.style.gridTemplateRows="repeat(" + nbRows + "," + rows + "px)";
         mur.style.top= `-${transY}px`;
         mur.style.left= `-${transX}px`;
+
+        let TopPosDiv = 0;
+        let LeftPosdiv = 0;
+        let oldX = 0;
+        let oldY = 0;
+        let PositionX = 0;
+        let PositionY = 0;
+        // console.log(_PageX)
+
+        function Drag() {
+        mur.addEventListener("mousedown", _MouseDown);
+        }
+        Drag();
+        function _MouseDown(e) {
+        TopPosDiv = e.clientX;
+        LeftPosdiv = e.clientY;
+
+        mur.addEventListener("mouseup", StopDrag);
+        mur.addEventListener("mousemove", MouseMoveDiv);
+        }
+
+        function MouseMoveDiv(e) {
+        // ScreenX=-1595 + "px";
+        // ScreenY=-1008 + "px";
+        //   if((PositionX <=0)|| (PositionY <=0)){
+        //     console.log(PositionX,PositionY)
+        //     return
+        //   }
+        PositionX = e.clientX - TopPosDiv + oldX;
+        PositionY = e.clientY - LeftPosdiv + oldY;
+
+        mur.style.transform =
+        "translate(" + PositionX + "px" + "," + PositionY + "px" + ")";
+
+        }
+
+        function StopDrag() {
+        oldX = PositionX;
+        oldY = PositionY;
+        mur.removeEventListener("mouseup", StopDrag);
+        mur.removeEventListener("mousemove", MouseMoveDiv);
+        }
 
     }
 
@@ -65,6 +107,8 @@ class Mur extends Component {
             isfiche: 1,
             id : e.currentTarget.dataset.id
         })
+
+        console.log(e.currentTarget.dataset.id);
 
     }
 
@@ -101,7 +145,6 @@ In the synthax of map makes a "loop" in a table so you have to be careful I stor
                     this.state.isfiche===0 ? 
                     <div className="mur">
                         {this.AfficherVignette()} 
-                        <div className="cercle"></div>
                     </div>
                         : 
                     <Fiche retour={(e)=>this.retour(e)}></Fiche>
