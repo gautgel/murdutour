@@ -5,7 +5,9 @@ the img (fixed for the moment)
 *********************************************/
 const PhotosCyclistes=(props)=>
   {
-    return <img src={props._url} alt=""/>;
+    return <div className="photo" style={{backgroundImage: `url(${props._url})`}}>
+
+    </div>;
 }
 
 export default PhotosCyclistes;

@@ -1,5 +1,6 @@
 import {chemin} from '../data/config'
 
+
 //by Gauthier
 /*********************************************************************************************************/
 //I create the database to store my data for cyclists (date, year, description etc)
@@ -19,7 +20,7 @@ import {chemin} from '../data/config'
                 des1:[
                     {
                         texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
+                        url: `${chemin}/bernard1981.jpg`,
                     }
                 ],
                 des2:[
@@ -49,6 +50,29 @@ import {chemin} from '../data/config'
         fiche: [
             {
                 date: 1989,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:2,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
                 des1:[
                     {
                         texte: "il gagne en 1981 son 3eme Tour de France",
@@ -848,6 +872,282 @@ import {chemin} from '../data/config'
     },
     {
         id:37,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:38,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:39,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:40,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:41,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:42,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:43,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:44,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:45,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:46,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:47,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:48,
+        name: "Greg Lemond",
+        //I create a description sheet in which I store images linked to texts
+        //for the moment they are only infos in example, it is always in phase of test.
+        fiche: [
+            {
+                date: 1986,
+                des1:[
+                    {
+                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ],
+                des2:[
+                    {
+                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                        url: `${chemin}/bernard19812.jpg`,
+                    }
+                ]
+            },
+    ]
+    },
+    {
+        id:49,
         name: "Greg Lemond",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.

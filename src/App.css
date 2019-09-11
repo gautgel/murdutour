@@ -1,29 +1,56 @@
-body{
-overflow: hidden;
+.mur{
+  position: absolute;
+  width: calc(200%+10px);
+  height: auto;
+  /* grip column gap for space column */
+  /* template column for column number */
+  border: 10px solid transparent;
+  background: black;
+  z-index: -1;
 }
+
 .vignette{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 310px;
-  width: auto;
-  color:white;
-
-}
-.vignette img{
-  height: 80%;
-  width: auto;
-}
-.mur{
-  display: grid;
-  grid-column-gap: 3%; 
-  /* grip column gap for space column */
-  grid-template-columns: auto auto auto auto auto auto auto;
-  /* template column for column number */
-  grid-gap:2%;
-  padding: 1%;
-  background: black;
+  font-size: 20px;
+  color: transparent;
+  border: 15px solid transparent;
+  background: transparent;
   overflow: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+.photo{
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/assets/img/bernard19812.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.35;
+  transition: 0.6s;
+  border-radius: 5px;
+  user-select: none;
+}
+.photo:hover{
+  opacity: 1;
+  transform: scale(0.95);
+}
+.date{
+  position: absolute;
+  user-select: none;
+}
 
+.cercle{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: red;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  z-index: 5;
 }
