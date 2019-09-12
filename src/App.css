@@ -62,3 +62,40 @@
   width: 100%;
   height: auto;
 }
+.BlocHeader{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: aliceblue;
+}
+.History{
+background-color: brown;
+width: 30%;
+height:auto ;
+}
+.Date{
+background-color: blueviolet;
+width: 20% ;
+height:auto;
+}
+.TitleName{
+background-color: darkred;
+width:20% ;
+height:auto ;
+}
+.BlocGauche{
+width: 100%;
+height: auto;
+background-color: blueviolet;
+}
+.BlocDroit{
+width: 100%;
+height: auto;
+background-color: cornflowerblue;
+}
+.HeaderPicture{
+  width:30vw;
+  height:50vh;
+  background-image: url("../src/Components/bernard19812.jpg");
+  background-size: cover;
+}

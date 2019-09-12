@@ -5,9 +5,12 @@ the img (fixed for the moment)
 *********************************************/
 const PhotosCyclistes=(props)=>
   {
-    return <div className="photo" style={{backgroundImage: `url(${props._url})`}}>
+    return <div className={props.Pictures}>
 
-    </div>;
+    </div>
 }
 
 export default PhotosCyclistes;
+
+// Elodie : ancienne ecriture props avant test fich descriptive return <div className={props.Pictures} style={{backgroundImage: `url(${props._url})`}}>
+// </div>

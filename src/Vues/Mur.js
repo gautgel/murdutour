@@ -9,7 +9,7 @@ import {
   cols,
   rows
 } from "../data/config";
-import Description from "./Descriptions";
+import Describe from "./Describe";
 
 let isdrag = 0;
 let _timeOut = null;
@@ -180,7 +180,7 @@ class Mur extends Component {
         return this.state.isfiche === 0 ? (
         <div className="mur">{this.AfficherVignette()}</div>
         ) : (
-        <Description data={this.state.data} retour={e => this.retour(e)}></Description>
+        <Describe data={this.state.data} retour={e => this.retour(e)}></Describe>
         );
     }
 }
