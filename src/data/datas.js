@@ -11,6 +11,8 @@ import {chemin} from '../data/config'
     {
         id:0,
         name: "Bernard Hinault",
+        url: `${chemin}/bernard19812.jpg`,
+        des: "né en 1954, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test. 
 
@@ -23,13 +25,6 @@ import {chemin} from '../data/config'
                         url: `${chemin}/bernard1981.jpg`,
                     }
                 ],
-                des2:[
-                    {
-                        texte: `il gagne devant van impe ici avec la
-                        maillot de meilleur grimpeur et Robert Alban`,
-                        url: "assets/img/bernard1981.jpg",
-                    }
-                ]
             },
             {
                 date: 1978,
@@ -45,18 +40,23 @@ import {chemin} from '../data/config'
     {
         id:1,
         name: "Greg Lemond",
+        url: `${chemin}/greg.jpg`,
+        des: "né en 1959, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1989,
-                des1:[
+                des:[
                     {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
+                        texte: "il gagne en 1981 son 1er Tour de France",
                         url: `${chemin}/bernard19812.jpg`,
                     }
                 ],
-                des2:[
+            },
+            {
+                date: 1977,
+                des:[
                     {
                         texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
                         url: `${chemin}/bernard19812.jpg`,
@@ -67,7 +67,9 @@ import {chemin} from '../data/config'
     },
     {
         id:2,
-        name: "Greg Lemond",
+        name: "Stephen Roche",
+        url: `${chemin}/roche.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -90,7 +92,9 @@ import {chemin} from '../data/config'
     },
     {
         id:3,
-        name: "Greg Lemond",
+        name: "Miguel Indurain",
+        url: `${chemin}/indurain.jpg`,
+        des: "né en 1969, cycliste professionel de 1986 a 1996.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -113,7 +117,9 @@ import {chemin} from '../data/config'
     },
     {
         id:4,
-        name: "Greg Lemond",
+        name: "Jacques Anquetil",
+        url: `${chemin}/anquetil.jpg`,
+        des: "né en 1935, cycliste professionel de 1956 a 1966.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -136,53 +142,61 @@ import {chemin} from '../data/config'
     },
     {
         id:5,
-        name: "Greg Lemond",
+        name: "Raymond Poulidor",
+        url: `${chemin}/poulidor.jpg`,
+        des: "né en 1945, cycliste professionel de 1960 a 1976.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 1978,
+                des:[
                     {
                         texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
                         url: `${chemin}/bernard19812.jpg`,
                     }
                 ]
-            },
+            }
     ]
     },
     {
         id:6,
-        name: "Greg Lemond",
+        name: "Egan Bernal",
+        url: `${chemin}/bernal.jpg`,
+        des: "né en 1997, cycliste professionel depuis 2016",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 1986,
+                date: 2018,
                 des1:[
                     {
                         texte: "il gagne en 1981 son 3eme Tour de France",
                         url: `${chemin}/bernard19812.jpg`,
                     }
                 ],
+            },
+            {
+                date:2019,
                 des2:[
                     {
                         texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
                         url: `${chemin}/bernard19812.jpg`,
                     }
                 ]
-            },
+            }
     ]
     },
     {
         id:7,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -206,6 +220,8 @@ import {chemin} from '../data/config'
     {
         id:8,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -229,6 +245,8 @@ import {chemin} from '../data/config'
     {
         id:9,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -252,6 +270,8 @@ import {chemin} from '../data/config'
     {
         id:10,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -275,6 +295,8 @@ import {chemin} from '../data/config'
     {
         id:11,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -298,6 +320,8 @@ import {chemin} from '../data/config'
     {
         id:12,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -321,6 +345,8 @@ import {chemin} from '../data/config'
     {
         id:13,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -344,6 +370,8 @@ import {chemin} from '../data/config'
     {
         id:14,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -367,6 +395,8 @@ import {chemin} from '../data/config'
     {
         id:15,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -390,6 +420,8 @@ import {chemin} from '../data/config'
     {
         id:16,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -413,6 +445,8 @@ import {chemin} from '../data/config'
     {
         id:17,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -436,6 +470,8 @@ import {chemin} from '../data/config'
     {
         id:18,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -459,6 +495,8 @@ import {chemin} from '../data/config'
     {
         id:19,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -482,6 +520,8 @@ import {chemin} from '../data/config'
     {
         id:20,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -505,6 +545,8 @@ import {chemin} from '../data/config'
     {
         id:21,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -528,6 +570,8 @@ import {chemin} from '../data/config'
     {
         id:22,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -551,6 +595,8 @@ import {chemin} from '../data/config'
     {
         id:23,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -574,6 +620,8 @@ import {chemin} from '../data/config'
     {
         id:24,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -597,6 +645,8 @@ import {chemin} from '../data/config'
     {
         id:25,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -620,6 +670,8 @@ import {chemin} from '../data/config'
     {
         id:26,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -643,6 +695,8 @@ import {chemin} from '../data/config'
     {
         id:27,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -666,6 +720,8 @@ import {chemin} from '../data/config'
     {
         id:28,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -689,6 +745,8 @@ import {chemin} from '../data/config'
     {
         id:29,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -712,6 +770,8 @@ import {chemin} from '../data/config'
     {
         id:30,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -735,6 +795,8 @@ import {chemin} from '../data/config'
     {
         id:31,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -758,6 +820,8 @@ import {chemin} from '../data/config'
     {
         id:32,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -781,6 +845,8 @@ import {chemin} from '../data/config'
     {
         id:33,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -804,6 +870,8 @@ import {chemin} from '../data/config'
     {
         id:34,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -827,6 +895,8 @@ import {chemin} from '../data/config'
     {
         id:35,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -850,6 +920,8 @@ import {chemin} from '../data/config'
     {
         id:36,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -873,6 +945,8 @@ import {chemin} from '../data/config'
     {
         id:37,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -896,6 +970,8 @@ import {chemin} from '../data/config'
     {
         id:38,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -919,6 +995,8 @@ import {chemin} from '../data/config'
     {
         id:39,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -942,6 +1020,8 @@ import {chemin} from '../data/config'
     {
         id:40,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -965,6 +1045,8 @@ import {chemin} from '../data/config'
     {
         id:41,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -988,6 +1070,8 @@ import {chemin} from '../data/config'
     {
         id:42,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1011,6 +1095,8 @@ import {chemin} from '../data/config'
     {
         id:43,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1034,6 +1120,8 @@ import {chemin} from '../data/config'
     {
         id:44,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1057,6 +1145,8 @@ import {chemin} from '../data/config'
     {
         id:45,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1080,6 +1170,8 @@ import {chemin} from '../data/config'
     {
         id:46,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1103,6 +1195,8 @@ import {chemin} from '../data/config'
     {
         id:47,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1126,6 +1220,8 @@ import {chemin} from '../data/config'
     {
         id:48,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -1149,6 +1245,8 @@ import {chemin} from '../data/config'
     {
         id:49,
         name: "Greg Lemond",
+        url: `${chemin}/bernard1981.jpg`,
+        des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [

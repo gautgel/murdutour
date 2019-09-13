@@ -165,7 +165,7 @@ class Mur extends Component {
         return (
             <VignetteParent
             key={`vignette_${index}`}
-            url={item.fiche[0].des1[0].url}
+            url={item.url}
             id={item.id}
             date={item.name}
             _onclick={e => this._onclick(e)}
