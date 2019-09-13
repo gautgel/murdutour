@@ -2,23 +2,23 @@ import React from "react";
 import PhotosCyclistes from "../Components/Photos";
 import Text from "../Components/Text";
 
-//Premier composant HEADER qui lui ne change pas au niveau de la vue Description (fiche de chaque Heros)
+//Elo :Premier composant HEADER qui lui ne change pas au niveau de la vue Description (fiche de chaque Heros)
 
-// J'ai placé une props pour la class au niveau de mes composant texte afin de pouvoir le deplacer et lui appliqué un css défini
+// Elo :J'ai placé une props pour changer la class de la div au niveau de mes composant texte afin de pouvoir le deplacer et lui appliqué un css défini
 
 function HeaderFiche(props) {
   return (
       <div className="BlocHeader">
       <Text DivName="TitleName" texte="Bernard Hinault"></Text>
       <PhotosCyclistes Pictures="HeaderPicture"></PhotosCyclistes>
-      <Text DivName="Date" texte="1954"></Text>
+      <button onClick={props.retour}>Le mur des Héros</button>
       <Text DivName="History" texte="coucou je suis le monsieur qui fait du vélo
       coucou je suis le monsieur qui fait du vélo
       coucou je suis le monsieur qui fait du vélo
       coucou je suis le monsieur qui fait du vélo
       coucou je suis le monsieur qui fait du vélo
       coucou je suis le monsieur qui fait du vélo"></Text>
-      <button onClick={props.retour}>Le mur des Héros</button>
+      <Text DivName="Date" texte="1954"></Text>
     </div>
   );
 }

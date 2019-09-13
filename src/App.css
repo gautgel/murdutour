@@ -1,4 +1,4 @@
-.mur{
+.mur {
   position: absolute;
   width: calc(200%+10px);
   height: auto;
@@ -9,7 +9,7 @@
   z-index: -1;
 }
 
-.vignette{
+.vignette {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,8 @@
   transition: 0.5s;
   z-index: 2;
 }
-.photo{
+
+.photo {
   width: 100%;
   height: 100%;
   background-image: url("../public/assets/img/bernard19812.jpg");
@@ -33,16 +34,18 @@
   border-radius: 5px;
   user-select: none;
 }
-.photo:hover{
+
+.photo:hover {
   opacity: 1;
   transform: scale(0.95);
 }
-.date{
+
+.date {
   position: absolute;
   user-select: none;
 }
 
-.cercle{
+.cercle {
   position: absolute;
   height: 20px;
   width: 20px;
@@ -55,47 +58,91 @@
   z-index: 5;
 }
 
-.description{
+.description {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
 }
-.BlocHeader{
+
+/* Elodie CSS => pour test en dur */
+.BlocHeader {
   width: 100%;
   height: auto;
-  background-color: black;
-  color: aliceblue;
+  display:flex;
 }
-.History{
-background-color: brown;
-width: 30%;
-height:auto ;
-}
-.Date{
-background-color: blueviolet;
-width: 20% ;
-height:auto;
-}
-.TitleName{
-background-color: darkred;
-width:20% ;
-height:auto ;
-}
-.BlocGauche{
-width: 100%;
-height: auto;
-background-color: blueviolet;
-}
-.BlocDroit{
-width: 100%;
-height: auto;
-background-color: cornflowerblue;
-}
-.HeaderPicture{
-  width:30vw;
-  height:50vh;
+
+/* Ci-après, css relatif au premier composant de la fiche description (le header) */
+.HeaderPicture {
+  width: 30vw;
+  height: 30vw;
   background-image: url("../src/Components/bernard19812.jpg");
   background-size: cover;
+  display: flex;
+}
+/* Elo: CSS du composant de la fiche ou les photos sont à droite */
+/* Elo :Container, le BlocDroit contient les photos et les textes */
+
+.BlocDroit {
+  width: 100%;
+  height: auto;
+
+
+}
+/* elo :PictureDroite la photo qui se trouve à droite */
+.PictureDroite {
+  width: 30vw;
+  height: 30vw;
+  background-image: url("../src/Components/bernard19812.jpg");
+  background-size: cover;
+ 
+}
+/* Description des cyclistes */
+.History {
+  width: 70%;
+  height: auto;
+}
+/* elo :date présente dans la fiche, englobée par le BlocDroit */
+.Date {
+  width: 3%;
+  height: auto;
+
+
+}
+/* Elo : Ci-dessous le CSS du composant de la fiche, dont les photos sont à gauche */
+/* elo :Container, le BlocGauche contient les photos et les textes */
+.BlocGauche {
+  width: 100%;
+  height: auto;
+
+
+}
+/* elo :photo qui se trouve à gauche */
+.PictureGauche {
+  width: 11vw;
+  height: 15vw;
+  background-image: url("../src/Components/bernard19812.jpg");
+  background-size: contain;
+;
+
+}
+/*elo : description présente dans la fiche ou la photo est à gauche */
+.HistoryBis {
+  width: 30%;
+  height: auto;
+
+}
+
+.DateBis {
+  width: 3%;
+  height: auto;
+
+}
+/* Elo : Ci-dessous, la personnalisation du Nom de Héro */
+.TitleName {
+
+  width: 20%;
+  height: auto;
+
 }

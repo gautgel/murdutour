@@ -80,10 +80,11 @@ class Mur extends Component {
         let PositionX = 0;
         let PositionY = 0;
         // console.log(_PageX)
-
+        // Elo : Début de la function Drag, action qui se passe lorsque l'utilisateur appuit sur la souris 
         function Drag() {
         mur.addEventListener("mousedown", _MouseDown);
         }
+        // elo :Appel des fonctions selon l'action de l'utilisateur mouseup arret du drag et mousemove deplacement
         Drag();
         function _MouseDown(e) {
         TopPosDiv = e.clientX;
@@ -91,7 +92,7 @@ class Mur extends Component {
         mur.addEventListener("mouseup", StopDrag);
         mur.addEventListener("mousemove", MouseMoveDiv);
         }
-
+//  Elo : fonction drag relative à la position de l'élément drager (ici le mur des héros que l'ont peur glisser)
         function MouseMoveDiv(e) {
         isdrag = 1;
         console.log(mur.getBoundingClientRect());
@@ -101,7 +102,7 @@ class Mur extends Component {
 
         mur.style.transform = `translate( ${PositionX}px, ${PositionY}px)`;
         }
-
+// elo : function qui stop le drap au mouseup, gauthier ajoute le timeOut pour la gestion des événement (mouseup/click en conflit)
         function StopDrag() {
         if (_timeOut) clearTimeout();
 
@@ -116,7 +117,7 @@ class Mur extends Component {
         mur.removeEventListener("mousemove", MouseMoveDiv);
         }
     };
-
+// ********************************** Elo : Fin de mes fonctions pour le mur
     result_filter = (id)=>{
         
         let _result = datas.filter(el=> 
