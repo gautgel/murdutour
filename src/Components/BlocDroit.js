@@ -1,20 +1,15 @@
 import React from "react";
-import PhotosCyclistes from "../Components/Photos";
+import PictureDes from "../Components/PictureDes";
 import Text from "./Text";
 
 // elo :Bloc ou la photo sera à droite
 function BlocPhotoDroit(props) {
     return (
-        <div className="BlocDroit">
+        <div className="BlocDroit row">
     
-    <Text DivName="History" texte="coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo"></Text>
-    <Text DivName="Date" texte="1954"></Text>
-      <PhotosCyclistes Pictures="PictureDroite"></PhotosCyclistes>
+    <Text DivName="rowRight" texte={props.data[0].des}></Text>
+    <Text DivName="Date" texte={props.data[0].date}></Text>
+    <PictureDes Pictures="PictureDroite rowRight" src={props.data[0].url}></PictureDes>
         </div>
     );
 }

@@ -139,6 +139,7 @@ class Mur extends Component {
             data: result
         }
         );
+        document.querySelector("body").classList.add("isscroll");
         
 
         }
@@ -151,6 +152,7 @@ class Mur extends Component {
         isfiche: 0
         });
         this.construction();
+        document.querySelector("body").classList.remove("isscroll");
     };
 
     AfficherVignette = () => {

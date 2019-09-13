@@ -1,5 +1,5 @@
 import React from "react";
-import PhotosCyclistes from "./Photos";
+import PictureDes from "./PictureDes";
 import Text from "./Text";
 import '../App.css';
 
@@ -7,16 +7,11 @@ import '../App.css';
 
 function BlocPhotoGauche(props) {
     return (
-        <div className ="BlocGauche">
+        <div className ="BlocGauche row">
 
-    <PhotosCyclistes Pictures="PictureGauche"></PhotosCyclistes>
-    <Text DivName="DateBis" texte="1954"></Text>
-    <Text DivName="HistoryBis" texte="coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo
-      coucou je suis le monsieur qui fait du vélo"></Text>
+    <PictureDes Pictures="PictureGauche rowLeft" src={props.data[0].url}></PictureDes>
+    <Text DivName="DateBis" texte={props.data[0].date}></Text>
+    <Text DivName="rowLeft" texte={props.data[0].des}></Text>
         </div>
     );
 }
