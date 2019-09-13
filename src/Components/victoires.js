@@ -5,7 +5,9 @@ for CSS modifications
  *******************************************************/
 function Victoires(props) {
   return (
-    <div className="MaillotJaune"></div>
+    <div className="MaillotJaune">
+      
+    </div>
   )
 }
 

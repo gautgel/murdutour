@@ -188,8 +188,8 @@ class Mur extends Component {
                 console.log(chiffre)
                 const chiffre = index;
                 return ((chiffre%2)===0)?
-                        <BlocPhotoGauche date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoGauche>
-                        : <BlocPhotoDroit date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoDroit>
+                        <BlocPhotoGauche src={item.url} date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoGauche>
+                        : <BlocPhotoDroit src={item.url} date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoDroit>
                     ;
                 });
                 return generate

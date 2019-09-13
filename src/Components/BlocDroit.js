@@ -9,7 +9,7 @@ function BlocPhotoDroit(props) {
     
     <Text DivName="rowRight" texte={props.des}></Text>
     {/* <Text DivName="Date" texte={props.date}></Text> */}
-    <PictureDes Pictures="rowRight" src={props.url}></PictureDes>
+    <PictureDes Pictures="rowRight" src={props.src}></PictureDes>
         </div>
     );
 }
