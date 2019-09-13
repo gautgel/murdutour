@@ -18,23 +18,10 @@ import {chemin} from '../data/config'
 
         fiche: [
             {
-                date: 1981,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard1981.jpg`,
-                    }
-                ],
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
-            {
-                date: 1978,
-                des1:[
-                    {
-                    texte: "il gagne son premier Tour.",
-                    url: "machinbidulechouette",
-                    }
-                ]
-            }
     ]
     },
     {
@@ -47,21 +34,13 @@ import {chemin} from '../data/config'
         fiche: [
             {
                 date: 1989,
-                des:[
-                    {
-                        texte: "il gagne en 1981 son 1er Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
             {
                 date: 1977,
-                des:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
             },
     ]
     },
@@ -74,19 +53,14 @@ import {chemin} from '../data/config'
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 1977,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
             },
     ]
     },
@@ -99,20 +73,11 @@ import {chemin} from '../data/config'
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            
     ]
     },
     {
@@ -138,6 +103,12 @@ import {chemin} from '../data/config'
                     }
                 ]
             },
+            {
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            
     ]
     },
     {
@@ -149,19 +120,25 @@ import {chemin} from '../data/config'
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 1986,
-                des: "il gagne en 1981 son 3eme Tour de France",
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
                 url: `${chemin}/bernard19812.jpg`,
             },
             {
-                date: 1978,
-                des:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
-            }
+                date: 1977,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 1969,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 2000,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            },
     ]
     },
     {
@@ -173,23 +150,25 @@ import {chemin} from '../data/config'
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 2018,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
             {
-                date:2019,
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
-            }
+                date: 1977,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 1989,
+                des: "il gagne en 1981 son 1er Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
+            },
+            {
+                date: 1977,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            },
     ]
     },
     {

@@ -10,6 +10,8 @@ import {
   rows
 } from "../data/config";
 import Describe from "./Describe";
+import BlocPhotoDroit from "../Components/BlocDroit";
+import BlocPhotoGauche from "../Components/BlocGauche";
 
 let isdrag = 0;
 let _timeOut = null;
@@ -156,34 +158,50 @@ class Mur extends Component {
     };
 
     AfficherVignette = () => {
-    /* Elodie =>
+        /* Elodie =>
         In the synthax of map makes a "loop" in a table so you have to be careful I store the data in a const */
+        
+        const result = datas.map((item, index) => {
+            /* The map function automatically returns returns, so you must redefine each time*/
+            
+            return (
+                <VignetteParent
+                key={`vignette_${index}`}
+                url={item.url}
+                id={item.id}
+                date={item.date}
+                _onclick={e => this._onclick(e)}
+                ></VignetteParent>
+                );
+            });
+            
+            /*request a return of the result of the map function  */
+            
+            return result;
+        };
+        //this function allows to generate according to the odd or even number of the index of the array data [0] .fiche with a map function. 
+        generate=()=>{
+        
+            console.log(this.state.data[0].fiche)
+            const generate = this.state.data[0].fiche.map((item, index) => {
+                console.log(item)
+                console.log(chiffre)
+                const chiffre = index;
+                return ((chiffre%2)===0)?
+                        <BlocPhotoGauche date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoGauche>
+                        : <BlocPhotoDroit date={item.date} des={item.des} key={`bloc_${index}`}></BlocPhotoDroit>
+                    ;
+                });
+                return generate
+        }
 
-    const result = datas.map((item, index) => {
-        /* The map function automatically returns returns, so you must redefine each time*/
-
-        return (
-            <VignetteParent
-            key={`vignette_${index}`}
-            url={item.url}
-            id={item.id}
-            date={item.name}
-            _onclick={e => this._onclick(e)}
-            ></VignetteParent>
-        );
-        });
-
-    /*request a return of the result of the map function  */
-
-    return result;
-    };
-    render() {
-        console.log("render",this.state);
+        render() {
+            console.log("render",this.state);
         /* return the function map to get the result */
         return this.state.isfiche === 0 ? (
         <div className="mur">{this.AfficherVignette()}</div>
         ) : (
-        <Describe data={this.state.data} retour={e => this.retour(e)}></Describe>
+        <Describe data={this.state.data} retour={e => this.retour(e)}>{this.generate()}</Describe>
         );
     }
 }

@@ -1,20 +1,17 @@
 
 import React from "react";
 import Entete from "../Components/HeaderBloc";
-import BlocPhotoGauche from "../Components/BlocGauche";
-import BlocPhotoDroit from "../Components/BlocDroit";
 
-// Elo :Ce composant sera appelé dans le mur, c'est le rendu final (vue) de la fiche description. Il comprends une DivWrapCOntainer, qui enveloppe les composants. HeaderFiche = Composant du fichier HeaderBloc, le BlocPhotoDroit/Gauche sont les container des descriptions et date (composant text), la difference est la position de la photo ( droit = photo à droit et gauche= photo à gauche)
+//Elo: This component will be called in the wall, it is the final rendering (view) of the description sheet. It includes a DivWrapCOntainer, which wraps the components. HeaderFiche = Component of the HeaderBloc file, the Left /RightPhoto Block are the container of descriptions and date (component text), the difference is the position of the photo (right = photo on the right and left = photo on the left)
+//Gaut: The props.children is used to nest other components that are called elsewhere.
+
 
 function Describe (props) {
     console.log(props)
         return (
             <div className="DivWrapContainer">
             <Entete data={props.data} retour={props.retour}></Entete>
-
-            <BlocPhotoGauche data={props.data}></BlocPhotoGauche>
-            <BlocPhotoDroit data={props.data}></BlocPhotoDroit>
-            <BlocPhotoGauche data={props.data}></BlocPhotoGauche>
+            {props.children}
             </div>
         );
     }

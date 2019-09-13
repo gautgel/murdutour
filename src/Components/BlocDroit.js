@@ -5,11 +5,11 @@ import Text from "./Text";
 // elo :Bloc ou la photo sera à droite
 function BlocPhotoDroit(props) {
     return (
-        <div className="BlocDroit row">
+        <div data={props.data} className="BlocDroit row">
     
-    <Text DivName="rowRight" texte={props.data[0].des}></Text>
-    <Text DivName="Date" texte={props.data[0].date}></Text>
-    <PictureDes Pictures="PictureDroite rowRight" src={props.data[0].url}></PictureDes>
+    <Text DivName="rowRight" texte={props.des}></Text>
+    {/* <Text DivName="Date" texte={props.date}></Text> */}
+    <PictureDes Pictures="rowRight" src={props.url}></PictureDes>
         </div>
     );
 }
