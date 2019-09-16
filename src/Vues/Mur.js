@@ -12,6 +12,7 @@ import {
 import Describe from "./Describe";
 import BlocPhotoDroit from "../Components/BlocDroit";
 import BlocPhotoGauche from "../Components/BlocGauche";
+import Preloader from "./Preloader";
 
 let isdrag = 0;
 let _timeOut = null;
@@ -22,7 +23,8 @@ class Mur extends Component {
         this.state = {
         isfiche: 0,
         id: 0,
-        data: []
+        data: [],
+        isloading: 0,
         };
     }
     //I use ComponentDidMount in order to update the component at the end of the render as the component is mounted. When it is the case, do this.
@@ -130,7 +132,7 @@ class Mur extends Component {
         return _result
     }
 
-    _onclick = e => {
+    _onclick = (e) => {
         const _id = e.currentTarget.dataset.id;
         const result = this.result_filter(_id);
             if (!isdrag) {
@@ -149,7 +151,7 @@ class Mur extends Component {
     
     };
 
-    retour = e => {
+    retour = () => {
         this.setState({
         isfiche: 0
         });
@@ -178,9 +180,9 @@ class Mur extends Component {
             /*request a return of the result of the map function  */
             
             return result;
-        };
+    };
         //this function allows to generate according to the odd or even number of the index of the array data [0] .fiche with a map function. 
-        generate=()=>{
+    generate=()=>{
         
             console.log(this.state.data[0].fiche)
             const generate = this.state.data[0].fiche.map((item, index) => {
@@ -193,15 +195,31 @@ class Mur extends Component {
                     ;
                 });
                 return generate
-        }
+    };
+    //the preloader function is here to display the preloader for x time with a setTimeout, I update the isloading state to 1 in order to tell it to show me the pre loader and when the setTimeout is finished it returns to 0 
+    preloader=()=>{
+        setTimeout(() => {
+            this.setState({isloading : 1});
+        }, 3000);
+    }
 
         render() {
             console.log("render",this.state);
         /* return the function map to get the result */
-        return this.state.isfiche === 0 ? (
+        return (
+        this.state.isloading === 0 ? 
+        <Preloader>{this.preloader()}</Preloader> 
+        : 
+        (
+        this.state.isfiche === 0 ? 
+        (
         <div className="mur">{this.AfficherVignette()}</div>
-        ) : (
+        ) 
+        : 
+        (
         <Describe data={this.state.data} retour={e => this.retour(e)}>{this.generate()}</Describe>
+        )
+        )
         );
     }
 }

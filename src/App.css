@@ -1,21 +1,39 @@
+/*polices*/
+@font-face{
+  src: url("../public/assets/font/NothingYouCouldDo-Regular.ttf");
+  font-family: "nothing";
+}
+
 @font-face{
 font-family: 'Montserrat', sans-serif;
 src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 }
+
+/*body*/
+
 .isscroll{
   overflow-y: scroll;
   background-image: url(../public/assets/img/tourdef.svg);
   background-size:cover;
 }
+
 .mur {
   position: absolute;
   width: calc(200%+10px);
   height: auto;
-  /* grip column gap for space column */
-  /* template column for column number */
   border: 10px solid transparent;
   background: black;
   z-index: -1;
+  animation: fadeOut 0.8s forwards;
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .vignette {
@@ -129,17 +147,6 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   margin:5%;
 }
     
-
-/* elo :date présente dans la fiche, englobée par le BlocDroit */
-/* .Date{
-  width: 3%;
-  height: auto;
-  position: absolute;
-  color:yellow;
-  margin-left:102vh;
-  margin-top: 28%;
-  font-size: 38px;
-} */
 /* Elo : Ci-dessous le CSS du composant de la fiche, dont les photos sont à gauche */
 /* elo :Container, le BlocGauche contient les photos et les textes */
 .BlocGauche {
@@ -148,7 +155,6 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   font-size: 18px;
   color:white;
   font-family: 'Montserrat',sans-serif;
-
 }
 /* elo :photo qui se trouve à gauche */
 
@@ -157,7 +163,6 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   width: 50%;
   text-align: justify;
   margin:5%;
-
 }
 
 /* .DateBis{
@@ -177,6 +182,7 @@ padding-top: 10%;
 padding-left: 23%;
 font-size: 40px;
 text-align: center;
+font-family: "nothing"
 }
 .ReturnButton{
   width: 30%;
@@ -217,5 +223,285 @@ text-align: center;
 }
 .ReturnButton:hover{
   color: black;
-  border-color: ;
+  border-color: black;
+}
+
+/*Preloader by Gauthier*/
+
+.preloader{
+  width: 100%;
+  height: 100vh;
+  background: #FFC425;
+  animation: fade 1s forwards;
+  animation-delay: 2s;
+}
+
+.cycle-wrapper {
+  width: 534px;
+  height: 260px;
+  margin: 0 auto;
+  position: absolute;
+  background: transparent;
+  transform: translate(-50%,-50%);
+  top: 45%;
+  left: 50%;
+}
+
+.chain-rotation{
+	position: absolute;
+	z-index: 16;
+}
+.chain-disc-inner{
+	background: black;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	position: absolute;
+	margin: 2px;
+  z-index: 4;
+}
+.chain-disc-outer{
+	background: #FFC425;
+	width: 22px;
+	height: 22px;
+	border: 5px solid black;
+	border-radius: 50%;
+	position: absolute;
+	margin: 117px 0 0 300px;
+	z-index: 3;
+	content: "";
+}
+.chain-rods{
+	height: 70px;
+	width: 6px;
+	background: black;
+	position: absolute;
+	margin: 97px 0 0 313px;
+	z-index: 15;
+	-webkit-animation: wheel-rotate 2s linear infinite;
+	-moz-animation: wheel-rotate 2s linear infinite;
+  animation: wheel-rotate 2s linear infinite;
+}
+.chain-rods:before{
+	content: "";
+	height: 70px;
+	width: 6px;
+	background: black;
+	position: absolute;
+	transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+}
+.chain-rods:after{
+	content: "";
+	height: 70px;
+	width: 6px;
+	background: black;
+	position: absolute;
+	transform: rotate(240deg);
+	-webkit-transform: rotate(240deg);
+	-moz-transform: rotate(240deg);
+}
+.outer-axle{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: transparent;
+	border: 5px solid black;
+	position: absolute;
+	margin: 92px 0 0 276px;
+	z-index: 3;
+}
+.outer-axle:after{
+	content: "";
+	height: 74px;
+	width: 74px;
+	border-radius: 50%;
+	background: transparent;
+	border: 5px dotted black;
+	margin: -7px;
+	position: absolute;
+	z-index: 3;
+	-webkit-animation: wheel-rotate 2s linear infinite;
+	-moz-animation: wheel-rotate 2s linear infinite;
+	animation: wheel-rotate 2s linear infinite;
+}
+.chain-up{
+	background-color: transparent;
+	background-size: 8px 2px;
+	background-position: 0 0, 30px 30px;
+	width: 155px;
+	height: 4px;
+	position: absolute;
+	z-index: 9;
+	background: transparent;
+	-webkit-transform: rotate(-11deg);
+	-moz-transform: rotate(-11deg);
+	transform: rotate(-11deg);
+	margin: 106px 0 0 148px;
+}
+.chain-up:before{
+	content: "";
+	background-color: transparent;
+	background-image: linear-gradient(90deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	background-size: 8px 2px;
+	background-position: 0 0, 30px 30px;
+	width: 155px;
+	height: 4px;
+	animation: chainUp 2s linear infinite;
+	-moz-animation: chainUp 2s linear infinite;
+	-webkit-animation: chainUp 2s linear infinite;
+	position: absolute;
+	z-index: 10;
+}
+.chain-bottom{
+	background-color: transparent;
+	background-size: 8px 2px;
+	background-position: 0 0, 30px 30px;
+	width: 155px;
+	height: 4px;
+	position: absolute;
+	z-index: 9;
+	background: transparent;
+	-webkit-transform: rotate(9deg);
+	-moz-transform: rotate(9deg);
+	transform: rotate(9deg);
+	margin: 157px 0 0 148px;
+}
+.chain-bottom:before{
+	content: "";
+	background-color: transparent;
+	background-image: linear-gradient(90deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	background-size: 8px 2px;
+	background-position: 0 0, 30px 30px;
+	width: 155px;
+	height: 4px;
+	animation: chainDown 2s linear infinite;
+	-moz-animation: chainDown 2s linear infinite;
+	-webkit-animation: chainDown 2s linear infinite;
+	position: absolute;
+	z-index: 10;
+}
+@keyframes chainUp {
+	0% { background-position: 0 25%; }
+    100% { background-position: 100% 0; }
+}
+@-moz-keyframes chainUp {
+    0% { background-position: 0 25%; }
+    100% { background-position: 100% 0; }
+}
+@-webkit-keyframes chainUp {
+    0% { background-position: 0 25%; }
+    100% { background-position: 100% 0; }
+}
+
+
+@keyframes chainDown {
+	0% { background-position: 100% 0; }
+    100% { background-position: 0 25%; }
+}
+@-moz-keyframes chainDown {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 25%; }
+}
+@-webkit-keyframes chainDown {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 25%;}
+}
+
+.cycle-wheel-outer{
+	background: transparent;
+	border: 5px solid transparent;
+	border-radius: 50%;
+	width: 190px;
+	height: 190px;
+	position: absolute;
+  margin-top: 6.45%;
+  margin-left: 8.7%;
+	-webkit-animation: wheel-rotate 2s linear infinite;
+	-moz-animation: wheel-rotate 2s linear infinite;
+	animation: wheel-rotate 2s linear infinite;
+}
+
+@-webkit-keyframes wheel-rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes wheel-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes wheel-rotate {
+    from{
+        -moz-transform: rotate(0deg);
+    }
+    to{
+        -moz-transform: rotate(360deg);
+    }
+}
+.inner-disc{
+	background: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	top: 50%;
+	margin-top: -10px;
+}
+.cycle-wheel-back .inner-disc:after{
+	content: "";
+	background: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	top: 50%;
+	margin-top: -10px;
+}
+.inner-disc-2{
+	background: transparent;
+	width: 6px;
+	height: 6px;
+	border: 2px solid #FFC425;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	top: 50%;
+	margin-top: -5px;
+}
+.cycle-wheel-back .inner-disc-2:after{
+	content: "";
+	background: transparent;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -13px;
+	top: 50%;
+	margin-top: -13px;
+	border: 4px dotted black;
+}
+
+
+@keyframes fade {
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
