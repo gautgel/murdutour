@@ -129,6 +129,16 @@ import {chemin} from '../data/config'
                 des: "Egan Arley Bernal Gómez, né le 13 janvier 1997, est un coureur cycliste colombien, membre de l'équipe Ineos. Venu du VTT et spécialiste des courses par étapes, il devient le 28 juillet 2019, à 22 ans et 196 jours le plus jeune vainqueur du Tour de France depuis François Faber en 19092, ainsi que le premier coureur colombien et latino-américain à s'imposer dans la « Grande Boucle ». Il a auparavant remporté le Tour de l'Avenir en 2017, le Tour de Californie en 2018, Paris-Nice et le Tour de Suisse en 2019.",
                 url: `${chemin}/bernal.jpg`,
             },
+            {
+                date: 1989,
+                des: "Egan Arley Bernal Gómez, né le 13 janvier 1997, est un coureur cycliste colombien, membre de l'équipe Ineos. Venu du VTT et spécialiste des courses par étapes, il devient le 28 juillet 2019, à 22 ans et 196 jours le plus jeune vainqueur du Tour de France depuis François Faber en 19092, ainsi que le premier coureur colombien et latino-américain à s'imposer dans la « Grande Boucle ». Il a auparavant remporté le Tour de l'Avenir en 2017, le Tour de Californie en 2018, Paris-Nice et le Tour de Suisse en 2019.",
+                url: `${chemin}/bernal.jpg`,
+            },
+            {
+                date: 1989,
+                des: "Egan Arley Bernal Gómez, né le 13 janvier 1997, est un coureur cycliste colombien, membre de l'équipe Ineos. Venu du VTT et spécialiste des courses par étapes, il devient le 28 juillet 2019, à 22 ans et 196 jours le plus jeune vainqueur du Tour de France depuis François Faber en 19092, ainsi que le premier coureur colombien et latino-américain à s'imposer dans la « Grande Boucle ». Il a auparavant remporté le Tour de l'Avenir en 2017, le Tour de Californie en 2018, Paris-Nice et le Tour de Suisse en 2019.",
+                url: `${chemin}/bernal.jpg`,
+            },
     ]
     },
     {
@@ -139,6 +149,16 @@ import {chemin} from '../data/config'
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
+            {
+                date: 1903,
+                des:"né le 20 février 1903 à Paris, il est l'un des piliers de l'équipe de France sur le Tour au début des années 1930 et l'un des coureurs les plus populaires de l'histoire de l'épreuve. En six participations à la Grande Boucle, il y remporte seize étapes. Il y obtient son meilleur classement final en 1930 en terminant au neuvième rang, l'année où il établit le record de victoires d'étapes sur un même Tour de France avec huit succès. Cette performance n'est égalée que par Eddy Merckx en 1970 et 1974 et Freddy Maertens en 1976.",
+                url: `${chemin}/charlepelissier.jpg`,
+            },
+            {
+                date: 1903,
+                des:"né le 20 février 1903 à Paris, il est l'un des piliers de l'équipe de France sur le Tour au début des années 1930 et l'un des coureurs les plus populaires de l'histoire de l'épreuve. En six participations à la Grande Boucle, il y remporte seize étapes. Il y obtient son meilleur classement final en 1930 en terminant au neuvième rang, l'année où il établit le record de victoires d'étapes sur un même Tour de France avec huit succès. Cette performance n'est égalée que par Eddy Merckx en 1970 et 1974 et Freddy Maertens en 1976.",
+                url: `${chemin}/charlepelissier.jpg`,
+            },
             {
                 date: 1903,
                 des:"né le 20 février 1903 à Paris, il est l'un des piliers de l'équipe de France sur le Tour au début des années 1930 et l'un des coureurs les plus populaires de l'histoire de l'épreuve. En six participations à la Grande Boucle, il y remporte seize étapes. Il y obtient son meilleur classement final en 1930 en terminant au neuvième rang, l'année où il établit le record de victoires d'étapes sur un même Tour de France avec huit succès. Cette performance n'est égalée que par Eddy Merckx en 1970 et 1974 et Freddy Maertens en 1976.",
@@ -159,6 +179,16 @@ import {chemin} from '../data/config'
                 des: "né le 14 février 1977. Ancien VTTiste de premier plan (vainqueur de la coupe du monde à deux reprises), il s'est converti au cyclisme sur route. À la fois bon grimpeur et rouleur, il a remporté le Championnat du monde sur route en 2009, le Tour de Romandie en 2006 et en 2011 et le ProTour 2007.Figurant parmi les favoris des grands tours auxquels il participe, il s'est classé deuxième du Tour de France en 2007 et 2008 et troisième du Tour d'Espagne 2009 ainsi que du Tour d'Italie 2013. En 2011, il est le premier Australien vainqueur du Tour de France.",
                 url: `${chemin}/.jpg`,
             },
+            {
+                date: 1977,
+                des: "né le 14 février 1977. Ancien VTTiste de premier plan (vainqueur de la coupe du monde à deux reprises), il s'est converti au cyclisme sur route. À la fois bon grimpeur et rouleur, il a remporté le Championnat du monde sur route en 2009, le Tour de Romandie en 2006 et en 2011 et le ProTour 2007.Figurant parmi les favoris des grands tours auxquels il participe, il s'est classé deuxième du Tour de France en 2007 et 2008 et troisième du Tour d'Espagne 2009 ainsi que du Tour d'Italie 2013. En 2011, il est le premier Australien vainqueur du Tour de France.",
+                url: `${chemin}/.jpg`,
+            },
+            {
+                date: 1977,
+                des: "né le 14 février 1977. Ancien VTTiste de premier plan (vainqueur de la coupe du monde à deux reprises), il s'est converti au cyclisme sur route. À la fois bon grimpeur et rouleur, il a remporté le Championnat du monde sur route en 2009, le Tour de Romandie en 2006 et en 2011 et le ProTour 2007.Figurant parmi les favoris des grands tours auxquels il participe, il s'est classé deuxième du Tour de France en 2007 et 2008 et troisième du Tour d'Espagne 2009 ainsi que du Tour d'Italie 2013. En 2011, il est le premier Australien vainqueur du Tour de France.",
+                url: `${chemin}/.jpg`,
+            },
     ]
     },
     {
@@ -169,6 +199,16 @@ import {chemin} from '../data/config'
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
+            {
+                date: 1984,
+                des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
+                url: `${chemin}/Vincenzo.jpg`,
+            }
+            {
+                date: 1984,
+                des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
+                url: `${chemin}/Vincenzo.jpg`,
+            }
             {
                 date: 1984,
                 des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
@@ -189,6 +229,16 @@ import {chemin} from '../data/config'
                 des:"né le 13 février 1952 à Nieuport (Belgique).Durant sa carrière professionnelle de 1972 à 1987, il remporte 142 victoires dont le Tour d'Espagne 1977 et, à deux reprises, le Championnat du monde sur route. Sa carrière coïncide avec les meilleures années d'un autre coureur belge, Eddy Merckx. Les partisans des coureurs ainsi que les journalistes de l'époque étaient divisés sur lequel des deux était le meilleur2.Il est le conservateur du musée du Tour des Flandres à Audenarde.",
                 url: `${chemin}/fm2.jpg`,
             },
+            {
+                date: 1952,
+                des:"né le 13 février 1952 à Nieuport (Belgique).Durant sa carrière professionnelle de 1972 à 1987, il remporte 142 victoires dont le Tour d'Espagne 1977 et, à deux reprises, le Championnat du monde sur route. Sa carrière coïncide avec les meilleures années d'un autre coureur belge, Eddy Merckx. Les partisans des coureurs ainsi que les journalistes de l'époque étaient divisés sur lequel des deux était le meilleur2.Il est le conservateur du musée du Tour des Flandres à Audenarde.",
+                url: `${chemin}/fm2.jpg`,
+            },
+            {
+                date: 1952,
+                des:"né le 13 février 1952 à Nieuport (Belgique).Durant sa carrière professionnelle de 1972 à 1987, il remporte 142 victoires dont le Tour d'Espagne 1977 et, à deux reprises, le Championnat du monde sur route. Sa carrière coïncide avec les meilleures années d'un autre coureur belge, Eddy Merckx. Les partisans des coureurs ainsi que les journalistes de l'époque étaient divisés sur lequel des deux était le meilleur2.Il est le conservateur du musée du Tour des Flandres à Audenarde.",
+                url: `${chemin}/fm2.jpg`,
+            },
     ]
     },
     {
@@ -199,6 +249,16 @@ import {chemin} from '../data/config'
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
+            {
+                date: 1979,
+                des:"né le 30 juin 1979 à Châtellerault. Professionnel de 2000 à 2018, il a notamment été champion de France de cyclisme sur route en 2011, six fois champion de France du contre-la-montre, en 2005, 2006, 2008, 2012, 2013 et 2014 (il devance Eddy Seigneur et ses quatre succès), vainqueur du Grand Prix de Plouay en 2014 et a remporté trois étapes du Tour de France, en 2008 et 2010. Il a également porté le maillot jaune en tant que leader du Tour en 2010 et remporté plusieurs titres de champion de France sur piste. Il détient le record de participation au Tour de France avec 18 départs consécutifs entre 2001 et 2018. Son frère cadet Sébastien Chavanel est également cycliste professionnel.",
+                url: `${chemin}/sylvain.jpg`,
+            },
+            {
+                date: 1979,
+                des:"né le 30 juin 1979 à Châtellerault. Professionnel de 2000 à 2018, il a notamment été champion de France de cyclisme sur route en 2011, six fois champion de France du contre-la-montre, en 2005, 2006, 2008, 2012, 2013 et 2014 (il devance Eddy Seigneur et ses quatre succès), vainqueur du Grand Prix de Plouay en 2014 et a remporté trois étapes du Tour de France, en 2008 et 2010. Il a également porté le maillot jaune en tant que leader du Tour en 2010 et remporté plusieurs titres de champion de France sur piste. Il détient le record de participation au Tour de France avec 18 départs consécutifs entre 2001 et 2018. Son frère cadet Sébastien Chavanel est également cycliste professionnel.",
+                url: `${chemin}/sylvain.jpg`,
+            },
             {
                 date: 1979,
                 des:"né le 30 juin 1979 à Châtellerault. Professionnel de 2000 à 2018, il a notamment été champion de France de cyclisme sur route en 2011, six fois champion de France du contre-la-montre, en 2005, 2006, 2008, 2012, 2013 et 2014 (il devance Eddy Seigneur et ses quatre succès), vainqueur du Grand Prix de Plouay en 2014 et a remporté trois étapes du Tour de France, en 2008 et 2010. Il a également porté le maillot jaune en tant que leader du Tour en 2010 et remporté plusieurs titres de champion de France sur piste. Il détient le record de participation au Tour de France avec 18 départs consécutifs entre 2001 et 2018. Son frère cadet Sébastien Chavanel est également cycliste professionnel.",
@@ -219,6 +279,16 @@ import {chemin} from '../data/config'
                 des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
                 url: `${chemin}/JCP.jpg`,
             },
+            {
+                date: 1977,
+                des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
+                url: `${chemin}/JCP.jpg`,
+            },
+            {
+                date: 1977,
+                des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
+                url: `${chemin}/JCP.jpg`,
+            },
     ]
     },
     {
@@ -229,6 +299,16 @@ import {chemin} from '../data/config'
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
+            {
+                date: 1914,
+                des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
+                url: `${chemin}/rene.jpg`,
+            },
+            {
+                date: 1914,
+                des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
+                url: `${chemin}/rene.jpg`,
+            },
             {
                 date: 1914,
                 des:"né le 22 mai 1977 à Toulouse. Spécialisé en VTT jusqu'en 2009, il est notamment champion d'Europe de cross-country en 2005, vice-champion olympique de cross-country aux Jeux de 2008 à Pékin et champion du monde de cross-country par équipe la même année. Il commence une carrière professionnelle sur route à l'âge de 32 ans, en 2010, après avoir été champion de France amateurs sur route en 2008 et le premier amateur à remporter le titre de champion de France du contre-la-montre en 2009.",
@@ -245,19 +325,14 @@ import {chemin} from '../data/config'
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1945,
+                des:"Édouard Louis Joseph, baron Merckx (/ˈmɛʁks/), plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
+                url: `${chemin}/merckx.jpg`,
+            },
+            {
+                date: 1945,
+                des:"Édouard Louis Joseph, baron Merckx (/ˈmɛʁks/), plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
+                url: `${chemin}/merckx.jpg`,
             },
     ]
     },
