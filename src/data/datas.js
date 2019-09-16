@@ -13,7 +13,7 @@ import {chemin} from '../data/config'
     {
         id:0,
         name: "Bernard Hinault",
-        url: `${chemin}/bernard19812.jpg`,
+        url: `${chemin}/hinault.png`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test. 
 
@@ -47,7 +47,7 @@ import {chemin} from '../data/config'
     {
         id:2,
         name: "Stephen Roche",
-        url: `${chemin}/roche.jpg`,
+        url: `${chemin}/roche.jpeg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -194,8 +194,7 @@ import {chemin} from '../data/config'
     {
         id:9,
         name: "Vincenzo Nibali",
-        url: `${chemin}/Vincenzo.jpg`,
-        des: "",
+        url: `${chemin}/vn.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
@@ -203,12 +202,12 @@ import {chemin} from '../data/config'
                 date: 1984,
                 des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
                 url: `${chemin}/Vincenzo.jpg`,
-            }
+            },
             {
                 date: 1984,
                 des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
                 url: `${chemin}/Vincenzo.jpg`,
-            }
+            },
             {
                 date: 1984,
                 des:"C'est un coureur cycliste italien. Professionnel depuis 2005, il est membre de l'équipe Bahrain-Merida. Il a notamment remporté le Tour d'Espagne 2010, le Tour d'Italie en 2013 et 2016 ainsi que le Tour de France 2014, devenant ainsi le sixième coureur à compter les trois grands tours à son palmarès",
@@ -219,7 +218,7 @@ import {chemin} from '../data/config'
     {
         id:10,
         name: "Freddy Maertens",
-        url: `${chemin}/fm.jpg`,
+        url: `${chemin}/maertens.jpg`,
         des: "",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
@@ -318,128 +317,103 @@ import {chemin} from '../data/config'
     },
     {
         id:14,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Eddy Merckx",
+        url: `${chemin}/merckx.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1945,
-                des:"Édouard Louis Joseph, baron Merckx (/ˈmɛʁks/), plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
+                des:"Édouard Louis Joseph, baron Merckx, plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
                 url: `${chemin}/merckx.jpg`,
             },
             {
                 date: 1945,
-                des:"Édouard Louis Joseph, baron Merckx (/ˈmɛʁks/), plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
+                des:"Édouard Louis Joseph, baron Merckx, plus connu sous le nom d’Eddy Merckx, est un cycliste belge né le 17 juin 1945 dans la commune de Meensel-Kiezegem, en province du Brabant flamand à l'est de Louvain.Professionnel de 1965 à 1978, Eddy Merckx est souvent considéré comme le plus grand cycliste de l'Histoire. Il a remporté 625 courses (525 victoires sur route, 98 succès sur la piste et deux bouquets en cyclo-cross) durant sa carrière, ce qui constitue un record. Surnommé « Le Cannibale » ou « L'Ogre de Tervuren » pour son insatiabilité, Eddy Merckx a notamment gagné onze Grands Tours (cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne) ce qui est là aussi un record. Il a également terminé douze fois sur un podium final de grand tour, seul Jacques Anquetil a fait mieux, avec treize podiums.Eddy Merckx a également remporté trois championnats du monde en ligne, le record de l'heure et 31 victoires dans les classiques (dont 19 Monuments).",
                 url: `${chemin}/merckx.jpg`,
             },
     ]
     },
     {
         id:15,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Jean Robic",
+        url: `${chemin}/robic.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:16,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Marco Pantani",
+        url: `${chemin}/pantani.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:17,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Felice Gimondi",
+        url: `${chemin}/gimondi.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:18,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Gino Bartali",
+        url: `${chemin}/bartali.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:19,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
+        name: "Louison Bobet",
+        url: `${chemin}/bobet.jpg`,
         des: "né en 1965, cycliste professionel de 1976 a 1986.",
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
@@ -463,502 +437,382 @@ import {chemin} from '../data/config'
     },
     {
         id:20,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Maurice Garin",
+        url: `${chemin}/garin.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:21,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "André Leducq",
+        url: `${chemin}/leducq.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:22,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Thibaut Pinot",
+        url: `${chemin}/pinot.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:23,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Julian Alaphilippe",
+        url: `${chemin}/alaphilippe.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:24,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Bernard Thévenet",
+        url: `${chemin}/thevenet.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:25,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Tom Simpson",
+        url: `${chemin}/simpson.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:26,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Fabio Casartelli",
+        url: `${chemin}/casartelli.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:27,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Roger Walkowiak",
+        url: `${chemin}/walkowiak.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:28,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Raphaël Geminiani",
+        url: `${chemin}/geminiani.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:29,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Andy Schleck",
+        url: `${chemin}/schleck.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:30,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Christopher Froome",
+        url: `${chemin}/froome.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:31,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Bradley Wiggins",
+        url: `${chemin}/wiggins.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:32,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Alberto Contador",
+        url: `${chemin}/contador.jpeg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:33,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Thomas Voeckler",
+        url: `${chemin}/voeckler.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:34,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Mark Cavendish",
+        url: `${chemin}/cavendish.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:35,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Peter Sagan",
+        url: `${chemin}/sagan.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:36,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Luis Ocana",
+        url: `${chemin}/ocana.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:37,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Laurent Fignon",
+        url: `${chemin}/fignon.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:38,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Fausto Coppi",
+        url: `${chemin}/coppi.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {
         id:39,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
+        name: "Henri Pélissier",
+        url: `${chemin}/henriPelissier.jpg`,
         //I create a description sheet in which I store images linked to texts
         //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                des: "il gagne en 1981 son 3eme Tour de France",
+                url: `${chemin}/bernard19812.jpg`,
             },
+            {
+                date: 1980,
+                des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
+                url: `${chemin}/bernard19812.jpg`,
+            }
     ]
     },
     {

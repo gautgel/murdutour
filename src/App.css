@@ -13,8 +13,7 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 
 .isscroll{
   overflow-y: scroll;
-  background-image: url(../public/assets/img/tourdef.svg);
-  background-size:cover;
+  background-color: #FFC425;
 }
 
 .mur {
@@ -64,7 +63,7 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 
 .photo:hover {
   opacity: 1;
-  transform: scale(0.95);
+  transform: rotate(1deg) scale(0.95);
   filter:none;
 }
 
@@ -73,13 +72,6 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   user-select: none;
 }
 
-.description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
 .DivWrapContainer{
   width: auto;
   height: 100%;
@@ -89,7 +81,7 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   background-color: rgba(0, 0, 0, 0.9);
   font-size: 35px;
   border-radius: 5px;
-
+  animation: fadeOut 1s forwards;
 }
 /* Elodie CSS => pour test en dur */
 .BlocHeader {
@@ -105,7 +97,7 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 
 .BlocDroit {
   width: 100%;
-  height:40vh;
+  height:50vh;
   font-size: 18px;
   color:white;
   font-family: 'Montserrat'sans-serif;
@@ -114,7 +106,6 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 .row{
   display:flex;
   position:relative;
-  overflow: hidden;
 }
 
 /* elo :PictureDroite la photo qui se trouve à droite */
@@ -141,6 +132,9 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 
 
 .rowRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width:50%;
   text-align: justify;
   height: auto;
@@ -151,7 +145,7 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
 /* elo :Container, le BlocGauche contient les photos et les textes */
 .BlocGauche {
   width: 100%;
-  height: 45vh;
+  height: 60vh;
   font-size: 18px;
   color:white;
   font-family: 'Montserrat',sans-serif;
@@ -504,4 +498,8 @@ font-family: "nothing"
   100%{
     opacity: 0;
   }
+}
+
+.fade{
+  animation: fade 1s forwards; 
 }
