@@ -344,12 +344,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/robic.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/robic.jpg`,
             }
     ]
     },
@@ -363,12 +363,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/pantani.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/pantani.jpg`,
             }
     ]
     },
@@ -382,12 +382,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/gimondi.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/gimondi.jpg`,
             }
     ]
     },
@@ -401,12 +401,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/bartali.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/bartali.jpg`,
             }
     ]
     },
@@ -423,13 +423,13 @@ import {chemin} from '../data/config'
                 des1:[
                     {
                         texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
+                        url: `${chemin}/bobet.jpg`,
                     }
                 ],
                 des2:[
                     {
                         texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
+                        url: `${chemin}/bobet.jpg`,
                     }
                 ]
             },
@@ -445,12 +445,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/garin.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/garin.jpg`,
             }
     ]
     },
@@ -464,12 +464,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/leducq.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/leducq.jpg`,
             }
     ]
     },
@@ -483,12 +483,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/pinot.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/pinot.jpg`,
             }
     ]
     },
@@ -502,12 +502,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/alaphilippe.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/alaphilippe.jpg`,
             }
     ]
     },
@@ -521,12 +521,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/thevenet.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/thevenet.jpg`,
             }
     ]
     },
@@ -540,12 +540,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/simpson.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/simpson.jpg`,
             }
     ]
     },
@@ -559,12 +559,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/casartelli.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/casartelli.jpg`,
             }
     ]
     },
@@ -578,12 +578,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/walkowiak.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/walkowiak.jpg`,
             }
     ]
     },
@@ -597,12 +597,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/geminiani.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/geminiani.jpg`,
             }
     ]
     },
@@ -616,12 +616,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/shleck.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/shleck.jpg`,
             }
     ]
     },
@@ -635,12 +635,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/froome.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/froome.jpg`,
             }
     ]
     },
@@ -654,12 +654,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/wiggins.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/wiggins.jpg`,
             }
     ]
     },
@@ -673,12 +673,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/contador.jpeg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/contador.jpeg`,
             }
     ]
     },
@@ -692,12 +692,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/voeckler.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/voeckler.jpg`,
             }
     ]
     },
@@ -711,12 +711,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/cavendish.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/cavendish.jpg`,
             }
     ]
     },
@@ -730,12 +730,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/sagan.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/sagan.jpg`,
             }
     ]
     },
@@ -749,12 +749,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/ocana.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/ocana.jpg`,
             }
     ]
     },
@@ -768,12 +768,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/fignon.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/fignon.jpg`,
             }
     ]
     },
@@ -787,12 +787,12 @@ import {chemin} from '../data/config'
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/coppi.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/coppi.jpg`,
             }
     ]
     },
@@ -800,268 +800,142 @@ import {chemin} from '../data/config'
         id:39,
         name: "Henri Pélissier",
         url: `${chemin}/henriPelissier.jpg`,
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
         fiche: [
             {
                 date: 1986,
                 des: "il gagne en 1981 son 3eme Tour de France",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/henriPelissier.jpg`,
             },
             {
                 date: 1980,
                 des: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/henriPelissier.jpg`,
             }
     ]
     },
     {
         id:40,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Antonin Magne",
+        url: `${chemin}/antoninMagne.JPEG`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
-            },
+                date: 1904,
+                des: "Antoine Marius Magne dit Antonin Magne, né le 15 février 1904 à Ytrac (Cantal) et mort le 8 septembre 1983 à Arcachon (Gironde), est un coureur cycliste français, professionnel de 1926 à 1939. Vainqueur du Tour de France en 1931 puis en 1934, il y gagne neuf étapes en dix participations, et s'y classe troisième en 1930 et deuxième en 1936.",
+                url: `${chemin}/antoninMagne.JPEG`,
+            }
     ]
-    },
+},
     {
         id:41,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Federico Bahamontes",
+        url: `${chemin}/bf2.jpg`,
         fiche: [
+
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1928,
+                des: "Alejandro Martín Bahamontes dit Federico Bahamontes ou Federico Martín Bahamontes1, né le 9 juillet 1928 à Val de Santo Domingo, dans la province de Tolède en Espagne, est un coureur cycliste espagnol. Surnommé « l'Aigle de Tolède », il est considéré comme l'un des meilleurs grimpeurs de l'histoire du cyclisme. ",
+                url: `${chemin}/bf2.jpg`,
+            },
+            {
+                date: 1959,
+                des: "l'Aigle de Tolède est le premier Espagnol à avoir gagné le tour de France en 1959",
+                url: `${chemin}/bf.jpg`,
             },
     ]
     },
     {
         id:42,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Joseph Zoetemelk",
+        url: `${chemin}/jz.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
-            },
-    ]
+            date: 1946,
+            des: "Hendrik Gerardus Joseph Zoetemelk naît le 3 décembre 1946 à La Haye.Surnommé le Hollandais du Tour de France, il est professionnel de 1970 à 1987 : une longévité remarquable dans ce sport. En seize participations au Tour de France, il n'abandonne jamais. Il remporte une fois la Grande Boucle en 1980, bénéficiant au passage de l'abandon sur blessure de Bernard Hinault (maillot jaune sur les épaules) à Pau.En 1974, victime d'une chute au Midi libre, il ne peut pas prendre part au Tour alors qu'il domine ses rivaux (Merckx, Thévenet, Van Impe) dans les principales courses par étapes de début de saison (3 courses, 3 victoires.Il termine deuxième du Tour en 1970, 1971, 1976, 1978, 1979, 1982, et détient le record du nombre de places de deuxième.",
+            url: `${chemin}/jz.jpg`,
+        },
+]
     },
     {
         id:43,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Lucien Van Impe",
+        url: `${chemin}/lvi.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+            date: 1946,
+            des: "Lucien Van Impe est un coureur cycliste belge, né le 20 octobre 1946 à Mere en Flandre-Orientale.Il a été professionnel de 1969 à 1987, soit jusqu'à l'âge de 41 ans.Il a disputé quinze Tours de France, tous terminés, en se classant neuf fois dans les six premiers.En 1976, il l'emporte sous la houlette de Cyrille Guimard qui commence alors sa carrière de directeur sportif.Doté d'un petit gabarit et spécialiste de la montagne, il a remporté six fois le Grand Prix de la montagne du Tour de France.Il est directeur sportif de l'équipe continentale Verandas Willems à compter de 2008.",
+            url: `${chemin}/lvi.jpg`, 
             },
     ]
     },
     {
         id:44,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Charly Gaul",
+        url: `${chemin}/cg.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+            date: 1932,
+            des: "Charly Gaul, né le 8 décembre 1932 à Pfaffenthal (Luxembourg) et mort le 6 décembre 2005 à Luxembourg, est un coureur cycliste luxembourgeois.Coureur polyvalent, il a notamment été champion du Luxembourg de cyclo-cross, un coureur de contre-la-montre accompli et un excellent grimpeur2. Ses capacités de pur grimpeur lorsque la route s'élève lui valent les surnoms du Grimpeur ailé ou de l'« Ange de la montagne »3. Il est reconnu pour avoir été un des plus grands grimpeurs du siècle. Il remporte le Tour de France 1958 ainsi que quatre étapes. Il s'adjuge également le Tour d'Italie en 1956 et 1959. Il apprécie particulièrement les mauvaises conditions météorologiques, dans lesquelles il parvient à creuser des écarts gigantesques et à bouleverser les classements4.",
+            url: `${chemin}/cg.jpg`,
             },
     ]
     },
     {
         id:45,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Philippe Thys",
+        url: `${chemin}/thys.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1889,
+                des: "Philippe Thys (Thĳs à l’état civil), né le 8 octobre 1889 à Anderlecht et mort le 17 janvier 1971 également à Anderlecht, est un cycliste belge, spécialiste des courses d’endurance qui fut professionnel de 1912 à 1927.",
+                url: `${chemin}/thys.jpg`,
             },
     ]
     },
     {
         id:46,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Pedro Delgado",
+        url: `${chemin}/pedro.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+            date: 1960,
+            des: "Pedro Delgado Robledo (né le 15 avril 1960 à Ségovie) est un cycliste espagnol. Professionnel de 1982 à 1994, il a notamment remporté le Tour de France 1988 et deux Tours d'Espagne (en 1985 et 1989). Il est le détenteur avec Gino Bartali et Felice Gimondi du plus grand nombre de grands tours terminés parmi les dix premiers(18).",
+            url: `${chemin}/pedro.jpg`,
             },
     ]
     },
     {
         id:47,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Roger Pingeon",
+        url: `${chemin}/rp2.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+                date: 1940,
+                des: "Roger Pingeon, né le 28 août 1940 à Hauteville-Lompnes (Ain) dans la région du Bugey et mort le 19 mars 2017 (à 76 ans) à Beaupont (Ain), est un coureur cycliste français.À la suite d'une carrière en indépendant qui le vit remporter la Polymultipliée lyonnaise (épreuve pourtant ouverte aux professionnels) en 1964, il entame tardivement une carrière professionnelle en 1965 qu'il achève en 1974. Comptant plus d'une trentaine de victoires professionnelles, il a en particulier remporté deux Grands Tours, le Tour de France 1967 et le Tour d'Espagne 1969. Il s'est également classé second du Tour de France 1969, battu par Eddy Merckx.",
+                url: `${chemin}/rp.jpeg`,
             },
     ]
     },
     {
         id:48,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Joaquim Agostinho",
+        url: `${chemin}/agos.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+        date: 1959,
+        des: "Joaquim Agostinho, né le 7 avril 1943 à Silveira, Torres Vedras (Estrémadure) et mort le 10 mai 1984 à Lisbonne, est un coureur cycliste portugais. Il est considéré comme l'un des meilleurs coureurs portugais de l'Histoire.",
+        url: `${chemin}/agos.jpg`,
             },
     ]
     },
     {
         id:49,
-        name: "Greg Lemond",
-        url: `${chemin}/bernard1981.jpg`,
-        des: "né en 1965, cycliste professionel de 1976 a 1986.",
-        //I create a description sheet in which I store images linked to texts
-        //for the moment they are only infos in example, it is always in phase of test.
+        name: "Claudio Chiappucci",
+        url: `${chemin}/cc.jpg`,
         fiche: [
             {
-                date: 1986,
-                des1:[
-                    {
-                        texte: "il gagne en 1981 son 3eme Tour de France",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ],
-                des2:[
-                    {
-                        texte: "il gagne devant van impe ici avec la maillot de meilleur grimpeur et Robert Alban",
-                        url: `${chemin}/bernard19812.jpg`,
-                    }
-                ]
+            date: 1959,
+            des: "Claudio Chiappucci, né le 28 février 1963 à Uboldo en Lombardie, est un ancien coureur cycliste italien. Professionnel de 1985 à 1999, il a remporté la classique Milan-San Remo en 1991 et la Classique de Saint-Sébastien en 1993. Il s'est classé deux fois deuxième du Tour d'Italie, en 1991 et 1992, et du Tour de France, en 1990 et 1992.",
+            url: `${chemin}/cc.jpg`,
             },
     ]
     },
