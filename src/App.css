@@ -77,12 +77,48 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   text-shadow: 1px 1px #FFC425;
 }
 
-
 .divName {
   position: absolute;
   user-select: none;
   margin: 15vmin 0vmin;
 }
+
+.linear{
+  position: fixed;
+  z-index: 1500;
+  
+}
+
+.top{
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(black,rgba(0,0,0,0.95), rgba(0,0,0,0.9),rgba(0,0,0,0.8), rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.bottom{
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to top, black,rgba(0,0,0,0.95), rgba(0,0,0,0.9),rgba(0,0,0,0.8), rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.right{
+  top: 0%;
+  right: 0%;
+  width: 50px;
+  height: 100vh;
+  background: linear-gradient(to left, black,rgba(0,0,0,0.95), rgba(0,0,0,0.9),rgba(0,0,0,0.8), rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.left{
+  top: 0%;
+  left: 0%;
+  width: 50px;
+  height: 100vh;
+  background: linear-gradient(to right, black,rgba(0,0,0,0.95), rgba(0,0,0,0.9),rgba(0,0,0,0.8), rgba(0,0,0,0.7),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
+}
+
+/*css description*/
 
 .DivWrapContainer{
   width: auto;
@@ -104,8 +140,8 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   font-family: 'Montserrat',sans-serif;
 }
 
-/* Elo: CSS du composant de la fiche ou les photos sont à droite */
-/* Elo :Container, le BlocDroit contient les photos et les textes */
+/* Elo: CSS of the plug component or the photos are on the right */
+/*Elo: Container, the RightLeft contains photos and texts */ 
 
 .BlocDroit {
   width: 100%;
@@ -162,6 +198,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   font-size: 18px;
   color:white;
   font-family: 'Montserrat',sans-serif;
+  background-color: rgba(0, 0, 0, 0.01);
 }
 /* elo :photo qui se trouve à gauche */
 
@@ -237,11 +274,13 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 /*Preloader by Gauthier*/
 
 .preloader{
+  position: relative;
   width: 100%;
   height: 100vh;
   background: #FFC425;
   animation: fade 1s forwards;
   animation-delay: 2s;
+  z-index: 990000;
 }
 
 .cycle-wrapper {

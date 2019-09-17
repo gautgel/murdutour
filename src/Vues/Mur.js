@@ -74,11 +74,11 @@ class Mur extends Component {
   };
 
   deplacer = () => {
-
-
-
-//TweenLite.to('.mur',3,{x:300})
+    //the draggable.create function is very easy to use, type of drag, the resistance of the drag, the borders of the drag with window so the window compared to the div wall. it's a greensock pluggin 
     Draggable.create(".mur", {type:"x,y", edgeResistance:1, bounds:window});
+
+
+
     // let TopPosDiv = 0;
     // let LeftPosdiv = 0;
     // let oldX = 0;
@@ -212,7 +212,17 @@ class Mur extends Component {
     return this.state.isloading === 0 ? (
       <Preloader>{this.preloader()}</Preloader>
     ) : this.state.isfiche === 0 ? (
-      <div className="mur">{this.AfficherVignette()}</div>
+        <React.Fragment>
+            <div className="linear top"></div>
+            <div className="linear left"></div>
+            <div className="linear right"></div>
+            <div className="linear bottom"></div>
+            <div className="mur">
+            
+            {this.AfficherVignette()}
+            </div>
+      </React.Fragment>
+        
     ) : (
       <Describe data={this.state.data} retour={e => this.retour(e)}>
         {this.generate()}
