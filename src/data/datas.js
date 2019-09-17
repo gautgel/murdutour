@@ -21,8 +21,23 @@ import {chemin} from '../data/config'
             {
                 date: 1954,
                 des: "Bernard Hinault, né le 14 novembre 1954 à Yffiniac (Côtes-du-Nord), est un coureur cycliste français, professionnel de 1975 à 1986. Il est le troisième coureur à remporter à cinq reprises le Tour de France, après Jacques Anquetil et Eddy Merckx. En huit participations, il y gagne vingt-huit étapes. Il a également remporté à trois reprises le Tour d'Italie et à deux reprises le Tour d'Espagne. Il compte également à son palmarès un titre de champion du monde sur route. Surnommé le Blaireau, il a dominé le sport cycliste international entre 1978 et 1986, remportant 216 victoires dont 144 hors critériums.",
-                url: `${chemin}/bernard19812.jpg`,
+                url: `${chemin}/hinault.png`,
             },
+            {
+                date: 1978,
+                des: "Après une saison éclatante lors de laquelle il remporte notamment le Tour d'Espagne pour sa première participation à un grand tour, Bernard Hinault s'attaque au Tour de France. Il n'a que 23 ans. Déjà élevé au rang de favori, le gamin d'Yffiniac, petit bourg des Côtes-d'Armor, court sans complexes et déjà intelligemment: il gère dans la montagne, où il colle aux basques de ses adversaires, notamment le Néerlandais Joop Zoetemelk. Le Blaireau a un avantage, et il le sait, c'est l'un des meilleurs spécialistes du contre-la-montre. Lors du chrono de la 20e et avant-dernière étape, il attaque et prend le maillot jaune, reléguant Zoetemelk à quatre minutes. Il ne le quitte plus et remporte la Grande Boucle dès sa première participation, comme Fausto Coppi, Jacques Anquetil ou Eddy Merckx avant lui.",
+                url: `${chemin}/hinault1978.jpg`,
+            },
+            {
+                date: 1982,
+                des:"Très fort dans la montagne, Bernard Hinault est surtout imbattable dans les contre-la-montre qui lui permettent de réaliser un doublé Tour d'Italie-Tour de France en 1982. Meilleur coureur du moment, Hinault s'était fixé cet objectif dès le début de saison et n'a pas failli. Après avoir surclassé ses adversaires dans le Giro, il s'attaque ainsi à la Grande Boucle en position de favori, malgré une ambiance compliquée au sein de son équipe. C'est pourtant la campagne hexagonale la plus tranquille pour le Blaireau, qui remporte quatre étapes et ne quitte plus le jaune à partir du 11e jour de course. Il se permet même de s'imposer au sprint sur les Champs-Elysées.",
+                url:`${chemin}/hinault1982.jpg`,
+            },
+            {
+                date: 1985,
+                des: "Il frappe fort dès le début et remporte le prologue, perd le maillot jaune en plaine et le récupère au premier contre-la-montre individuel. Le Blaireau attaque ensuite et enfonce le clou dans les Alpes, où il se montre impérial. La victoire finale lui semble alors promise. Mais il chute lourdement à moins d'un kilomètre de l'arrivée lors de la 14ème étape. Sérieusement blessé, le champion français se relève et finit l'étape sans perdre trop de temps. La suite est beaucoup plus compliquée et il souffre notamment dans les Pyrénées. Son jeune coéquipier américain, un certain Greg LeMond, qui se sent particulièrement bien, se plaint de ne pouvoir attaquer… Hinault lui promet alors de l'aider à remporter le Tour l'année suivante. LeMond accepte, Hinault remporte sa 5e Grande Boucle en cet été 1985.",
+                url: `${chemin}/hinault1985.jpg`,
+            }
     ]
     },
     {

@@ -161,7 +161,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   width: 100%;
   height: auto;
   border-radius: 1%;
-  transform:translateY(2em) rotateZ(-2deg);
+  transform:translateY(0em) rotateZ(-2deg);
   animation-duration: 0.8s;
   animation-timing-function: linear;
   animation-delay: 0s;
@@ -170,6 +170,9 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: Moveimg;
+  -webkit-box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
+  box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
 }
 @keyframes Moveimg{
   0%{
