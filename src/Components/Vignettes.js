@@ -1,5 +1,4 @@
 import React from "react";
-import Text from "./Text";
 import '../App.css';
 import PhotosCyclistes from "./Photos"
 

@@ -16,7 +16,6 @@ import BlocPhotoGauche from "../Components/BlocGauche";
 import Preloader from "./Preloader";
 
 let isdrag = 0;
-let _timeOut = null;
 
 class Mur extends Component {
   constructor(props) {
@@ -75,7 +74,7 @@ class Mur extends Component {
 
   deplacer = () => {
     //the draggable.create function is very easy to use, type of drag, the resistance of the drag, the borders of the drag with window so the window compared to the div wall. it's a greensock pluggin 
-    Draggable.create(".mur", {type:"x,y", edgeResistance:1, bounds:window});
+    Draggable.create(".mur", {type:"x,y", edgeResistance:0.65, bounds:window});
 
 
 
