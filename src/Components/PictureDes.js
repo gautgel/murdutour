@@ -6,7 +6,7 @@ the img (fixed for the moment)
 const PictureDes =(props)=>
   {
     return <div className={props.Pictures}>
-    <img className="LesPhotos" src={props.src}/>
+    <img className="LesPhotos" src={props.src} alt=""/>
     </div>
 }
 

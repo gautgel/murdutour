@@ -8,7 +8,7 @@ import '../App.css';
 function BlocPhotoGauche(props) {
     console.log(props)
     return (
-        <div className ="BlocGauche row">
+        <div className="BlocGauche row">
 
     <PictureDes Pictures="rowLeft" src={props.src}></PictureDes>
     {/* <Text DivName="DateBis" texte={props.date}></Text> */}

@@ -1,12 +1,12 @@
 /*polices*/
 @font-face{
-  src: url("../public/assets/font/NothingYouCouldDo-Regular.ttf");
+  src: url("./font/NothingYouCouldDo-Regular.ttf");
   font-family: "nothing";
 }
 
 @font-face{
 font-family: 'Montserrat', sans-serif;
-src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
+src: url("./font/Montserrat/Montserrat-Black.ttf");
 }
 
 /*body*/
@@ -47,9 +47,13 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   overflow: hidden;
   transition: 0.5s;
   z-index: 2;
+  color: transparent;
 }
 
 .photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -59,17 +63,25 @@ src: url("../public/assets/font/Montserrat/Montserrat-Black.ttf");
   border-radius: 5px;
   user-select: none;
   filter: grayscale(100%);
+  font-family: "nothing";
+  transition: 0.5s;
 }
 
 .photo:hover {
   opacity: 1;
   transform: rotate(1deg) scale(0.95);
   filter:none;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow: 1px 1px #FFC425;
 }
 
-.date {
+
+.divName {
   position: absolute;
   user-select: none;
+  margin: 15vmin 0vmin;
 }
 
 .DivWrapContainer{

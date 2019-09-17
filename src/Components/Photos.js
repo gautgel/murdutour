@@ -5,9 +5,8 @@ the img (fixed for the moment)
 */
 const PhotosCyclistes=(props)=>
   {
-    console.log(props._url)
     return <div style={{backgroundImage: `url(${props._url})`}} className={props.Pictures}>
-
+        {props.name}
     </div>
 }
 
