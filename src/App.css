@@ -140,6 +140,28 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   font-family: 'Montserrat',sans-serif;
 }
 
+/*Gaut: placement of the date div */
+
+.dateLeft{
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-family: "nothing";
+  font-size: 45px;
+  color: #FFC425;
+  text-shadow: black 1px 1px;
+}
+
+.dateRight{
+  position: absolute;
+  top: 0%;
+  right: 5%;
+  font-family: "nothing";
+  font-size: 45px;
+  color: #FFC425;
+  text-shadow: black 1px 1px;
+}
+
 /* Elo: CSS of the plug component or the photos are on the right */
 /*Elo: Container, the RightLeft contains photos and texts */ 
 

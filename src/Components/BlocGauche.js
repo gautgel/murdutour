@@ -10,7 +10,7 @@ function BlocPhotoGauche(props) {
     return (
         <div className="BlocGauche row">
 
-    <PictureDes Pictures="rowLeft" src={props.src}></PictureDes>
+    <PictureDes class={"dateLeft"} date={props.date} Pictures="rowLeft" src={props.src}></PictureDes>
     {/* <Text DivName="DateBis" texte={props.date}></Text> */}
     <Text DivName="rowLeft" texte={props.des}></Text>
         </div>
