@@ -5,25 +5,129 @@
 }
 
 @font-face{
-font-family: 'Montserrat', sans-serif;
-src: url("./font/Montserrat/Montserrat-Black.ttf");
+font-family: 'Montserrat';
+src: url("./font/Montserrat/Montserrat-Light.ttf");
 }
 
 /*body*/
 
 .isscroll{
   overflow-y: scroll;
-  background-color: #FFC425;
 }
+
+.wallHeroes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(8, 8, 8);
+  z-index: 12345678976543234567876;
+  animation: disappear 8s forwards;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 70px;
+  font-family: "nothing";
+  animation: colorFade 2s forwards;
+}
+.settings{
+  width: 50%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Montserrat";
+  animation: colorFade 2s forwards;
+}
+
+.fas{
+  position: absolute;
+  animation: moveCursor 4s;
+  animation-iteration-count: 2;
+}
+
+@keyframes moveCursor{
+  0%{
+    transform: translate(0px, 50px);
+  }
+  20%{
+    transform: translate(0px, 150px);
+  }
+  40%{
+    transform: translate(100px, 150px);
+  }
+  60%{
+    transform: translate(-100px, 150px);
+  }
+  80%{
+    transform: translate(0px,150px);
+  }
+  100%{
+    transform: translate(0px, 50px);
+  }
+}
+
+@keyframes colorFade {
+  0%{
+    color: rgba(255, 196, 37,0);
+  }
+  100%{
+    color: rgba(255, 196, 37,1);
+  }
+}
+
+@keyframes disappear{
+  0%{
+    opacity: 1;
+    z-index: 1234567876543;
+  }
+  10%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 1;
+  } 
+  80%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    z-index: -613456;
+  }
+}
+
 
 .mur {
   position: absolute;
   width: calc(200%+10px);
   height: auto;
   border: 10px solid transparent;
-  background: black;
-  z-index: -1;
-  animation: fadeOut 0.8s forwards;
+  background: rgb(8, 8, 8);
+  z-index: 1;
+  animation: fadeOut 1.3s forwards;
 }
 
 @keyframes fadeOut {
@@ -48,6 +152,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   transition: 0.5s;
   z-index: 2;
   color: transparent;
+  opacity: 0;
 }
 
 .photo {
@@ -72,7 +177,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   transform: rotate(1deg) scale(0.95);
   filter:none;
   color: black;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 900;
   text-shadow: 1px 1px #FFC425;
 }
@@ -126,10 +231,9 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   margin-right: 30vh;
   margin-left: 30vh;
   margin-top: 5vh;
-  background-color: rgba(0, 0, 0, 0.9);
   font-size: 35px;
   border-radius: 5px;
-  animation: fadeOut 1s forwards;
+  animation: fadeOut 2s forwards;
 }
 /* Elodie CSS => pour test en dur */
 .BlocHeader {
@@ -148,7 +252,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   left: 5%;
   font-family: "nothing";
   font-size: 45px;
-  color: #FFC425;
+  color: rgb(255, 196, 37);
   text-shadow: black 1px 1px;
 }
 
@@ -170,8 +274,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   height: auto; 
   font-size: 18px;
   color:white;
-  font-family: 'Montserrat'sans-serif;
-  background-color: rgba(0, 0, 0, 0.01);
+  font-family: 'Montserrat';
 }
 .row{
   display:flex;
@@ -192,9 +295,6 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: Moveimg;
-  -webkit-box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
-  -moz-box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
-  box-shadow: 20px 20px 35px 0px rgba(0,0,0,1);
 }
 @keyframes Moveimg{
   0%{
@@ -212,7 +312,6 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   text-align: justify;
   height: auto;
   margin:5%;
-  background-color: rgba(0, 0, 0, 0.01);
 }
     
 /* Elo : Ci-dessous le CSS du composant de la fiche, dont les photos sont à gauche */
@@ -222,13 +321,15 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   height: auto; 
   font-size: 18px;
   color:white;
-  font-family: 'Montserrat',sans-serif;
-  background-color: rgba(0, 0, 0, 0.01);
+  font-family: 'Montserrat';
 }
 /* elo :photo qui se trouve à gauche */
 
 /*elo : description présente dans la fiche ou la photo est à gauche */
 .rowLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   text-align: justify;
   margin:5%;
@@ -252,7 +353,6 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   font-size: 40px;
   text-align: center;
   font-family: "nothing";
-  background-color: rgba(0, 0, 0, 0.01);
 }
 .ReturnButton{
   width: 30%;
@@ -302,7 +402,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #FFC425;
+  background: rgb(8, 8, 8);
   animation: fade 1s forwards;
   animation-delay: 2s;
   z-index: 990000;
@@ -324,7 +424,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	z-index: 16;
 }
 .chain-disc-inner{
-	background: black;
+	background: #FFC425;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -333,10 +433,10 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
   z-index: 4;
 }
 .chain-disc-outer{
-	background: #FFC425;
+	background: rgb(8, 8, 8);
 	width: 22px;
 	height: 22px;
-	border: 5px solid black;
+	border: 5px solid #FFC425;
 	border-radius: 50%;
 	position: absolute;
 	margin: 117px 0 0 300px;
@@ -346,7 +446,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 .chain-rods{
 	height: 70px;
 	width: 6px;
-	background: black;
+	background: #FFC425;
 	position: absolute;
 	margin: 97px 0 0 313px;
 	z-index: 15;
@@ -358,7 +458,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	content: "";
 	height: 70px;
 	width: 6px;
-	background: black;
+	background: #FFC425;
 	position: absolute;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
@@ -368,7 +468,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	content: "";
 	height: 70px;
 	width: 6px;
-	background: black;
+	background: #FFC425;
 	position: absolute;
 	transform: rotate(240deg);
 	-webkit-transform: rotate(240deg);
@@ -379,7 +479,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	width: 70px;
 	border-radius: 50%;
 	background: transparent;
-	border: 5px solid black;
+	border: 5px solid #FFC425;
 	position: absolute;
 	margin: 92px 0 0 276px;
 	z-index: 3;
@@ -390,7 +490,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	width: 74px;
 	border-radius: 50%;
 	background: transparent;
-	border: 5px dotted black;
+	border: 5px dotted #FFC425;
 	margin: -7px;
 	position: absolute;
 	z-index: 3;
@@ -415,7 +515,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 .chain-up:before{
 	content: "";
 	background-color: transparent;
-	background-image: linear-gradient(90deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	background-image: linear-gradient(90deg, #FFC425 25%, transparent 25%, transparent 75%, #FFC425 75%, #FFC425);
 	background-size: 8px 2px;
 	background-position: 0 0, 30px 30px;
 	width: 155px;
@@ -443,7 +543,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 .chain-bottom:before{
 	content: "";
 	background-color: transparent;
-	background-image: linear-gradient(90deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	background-image: linear-gradient(90deg, #FFC425 25%, transparent 25%, transparent 75%, #FFC425 75%, #FFC425);
 	background-size: 8px 2px;
 	background-position: 0 0, 30px 30px;
 	width: 155px;
@@ -520,7 +620,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
     }
 }
 .inner-disc{
-	background: black;
+	background: #FFC425;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
@@ -532,7 +632,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 }
 .cycle-wheel-back .inner-disc:after{
 	content: "";
-	background: black;
+	background: #FFC425;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
@@ -546,7 +646,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	background: transparent;
 	width: 6px;
 	height: 6px;
-	border: 2px solid #FFC425;
+	border: 2px solid rgb(8, 8, 8);
 	border-radius: 50%;
 	position: absolute;
 	left: 50%;
@@ -565,7 +665,7 @@ src: url("./font/Montserrat/Montserrat-Black.ttf");
 	margin-left: -13px;
 	top: 50%;
 	margin-top: -13px;
-	border: 4px dotted black;
+	border: 4px dotted #FFC425;
 }
 
 

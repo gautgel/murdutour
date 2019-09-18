@@ -6,11 +6,10 @@ import '../App.css';
 // Elo : Ce composant sera  le containerqui aura la photo à gauche dans la description
 
 function BlocPhotoGauche(props) {
-    console.log(props)
     return (
         <div className="BlocGauche row">
 
-    <PictureDes class={"dateLeft"} date={props.date} Pictures="rowLeft" src={props.src}></PictureDes>
+    <PictureDes id={`photo${props.id}`} class={"dateLeft"} date={props.date} Pictures="rowLeft" src={props.src}></PictureDes>
     {/* <Text DivName="DateBis" texte={props.date}></Text> */}
     <Text DivName="rowLeft" texte={props.des}></Text>
         </div>

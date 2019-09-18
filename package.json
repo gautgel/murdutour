@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "gsap": "^2.0.2",
+    "lax.js": "^1.2.3",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

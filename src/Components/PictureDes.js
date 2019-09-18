@@ -5,10 +5,12 @@ the img (fixed for the moment)
 *********************************************/
 const PictureDes =(props)=>
   {
-    return <div className={props.Pictures}>
-        <img className="LesPhotos" src={props.src} alt=""/>
+    return (
+    <div className={props.Pictures}>
+        <img  id={props.id} className="LesPhotos" src={props.src} alt=""/>
         <div className={props.class}>{props.date}</div>
     </div>
+    )
 }
 
 export default PictureDes;

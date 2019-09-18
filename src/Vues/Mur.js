@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { datas } from "../data/datas";
 import VignetteParent from "../Components/Vignettes";
-import Draggable from 'gsap/Draggable'
+import Draggable from 'gsap/Draggable';
+import TweenMax from 'gsap/TweenMax';
 import {
   widthScreen,
   heightScreen,
@@ -14,6 +15,7 @@ import Describe from "./Describe";
 import BlocPhotoDroit from "../Components/BlocDroit";
 import BlocPhotoGauche from "../Components/BlocGauche";
 import Preloader from "./Preloader";
+// import lax from "lax.js";
 
 let isdrag = 0;
 
@@ -24,18 +26,21 @@ class Mur extends Component {
       isfiche: 0,
       id: 0,
       data: [],
-      isloading: 0
+      isloading: 0,
+      isread: 0,
     };
   }
   //I use ComponentDidMount in order to update the component at the end of the render as the component is mounted. When it is the case, do this.
   componentDidMount() {
     this.construction();
+    this.animVignette();
   }
   //ComponentDidUpdate is there when the render is updated,
   componentDidUpdate() {
     if (this.state.isfiche === 0) {
       this.construction();
     }
+    console.log(document.getElementById("photo1"));
   }
 
   construction = () => {
@@ -45,22 +50,12 @@ class Mur extends Component {
       const vigX = cols * 10;
       const vigY = rows * 5;
       const borderMur = 20;
-
-      console.log(vigX, vigY);
       const top = vigY + borderMur;
-
       const left = vigX + borderMur;
-
-      console.log(left, top);
-
       const X = left - widthScreen;
-
       const Y = top - heightScreen;
-
       const transX = X / 2;
       const transY = Y / 2;
-
-      console.log(transX, transY);
 
       mur.style.display = "grid";
       mur.style.gridTemplateColumns = "repeat(" + nbCols + "," + cols + "px)";
@@ -139,7 +134,8 @@ class Mur extends Component {
       this.setState({
         isfiche: 1,
         id: _id,
-        data: result
+        data: result,
+        isread : 1
       });
       document.querySelector("body").classList.add("isscroll");
     }
@@ -147,7 +143,8 @@ class Mur extends Component {
 
   retour = () => {
     this.setState({
-      isfiche: 0
+      isfiche: 0,
+      isread : 1,
     });
     this.construction();
     document.querySelector("body").classList.remove("isscroll");
@@ -170,14 +167,23 @@ class Mur extends Component {
         ></VignetteParent>
       );
     });
-
     /*request a return of the result of the map function  */
-
     return result;
   };
+
+  animVignette=()=>{
+    let x = document.getElementsByClassName('vignette')
+    for(var i = 0, a = []; i < x.length; i++){
+       a.push(x[i]);
+    }
+   
+
+  console.log(a)
+   TweenMax.to(a, 0.5,{opacity:1});
+  }
+  
   //this function allows to generate according to the odd or even number of the index of the array data [0] .fiche with a map function.
   generate = () => {
-    console.log(this.state.data[0].fiche);
     const generate = this.state.data[0].fiche.map((item, index) => {
       const chiffre = index;
       return chiffre % 2 === 0 ? (
@@ -186,6 +192,7 @@ class Mur extends Component {
           date={item.date}
           des={item.des}
           key={`bloc_${index}`}
+          id={index}
         ></BlocPhotoGauche>
       ) : (
         <BlocPhotoDroit
@@ -193,6 +200,7 @@ class Mur extends Component {
           date={item.date}
           des={item.des}
           key={`bloc_${index}`}
+          id={index}
         ></BlocPhotoDroit>
       );
     });
@@ -206,19 +214,24 @@ class Mur extends Component {
   };
 
   render() {
-    console.log("render", this.state);
     /* return the function map to get the result */
     return this.state.isloading === 0 ? (
       <Preloader>{this.preloader()}</Preloader>
-    ) : this.state.isfiche === 0 ? (
+      ) : this.state.isfiche === 0 ? (
         <React.Fragment>
+        {this.state.isread === 0 ? 
+            <div className="wallHeroes">
+              <div className="title">Le Mur des Héros</div>
+              <div className="settings">Parcourez le mur : <i className="fas fa-hand-rock"></i></div>
+            </div>
+          : null}
             <div className="linear top"></div>
             <div className="linear left"></div>
             <div className="linear right"></div>
             <div className="linear bottom"></div>
             <div className="mur">
-            
-            {this.AfficherVignette()}
+              
+              {this.AfficherVignette()}
             </div>
       </React.Fragment>
         

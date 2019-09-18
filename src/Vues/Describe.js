@@ -7,7 +7,6 @@ import Entete from "../Components/HeaderBloc";
 
 
 function Describe (props) {
-    console.log(props)
         return (
             <div className="DivWrapContainer">
                 
