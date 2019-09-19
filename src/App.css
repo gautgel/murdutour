@@ -1,3 +1,10 @@
+body,html{
+  width: 100%;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+}
+
 /*polices*/
 @font-face{
   src: url("./font/NothingYouCouldDo-Regular.ttf");
@@ -25,7 +32,7 @@ src: url("./font/Montserrat/Montserrat-Light.ttf");
   height: 100vh;
   background: rgb(8, 8, 8);
   z-index: 12345678976543234567876;
-  animation: disappear 8s forwards;
+  animation: disappear 4s forwards;
 }
 
 .title{
@@ -119,6 +126,7 @@ src: url("./font/Montserrat/Montserrat-Light.ttf");
   }
 }
 
+/*wall with vignettes*/
 
 .mur {
   position: absolute;
@@ -408,6 +416,19 @@ src: url("./font/Montserrat/Montserrat-Light.ttf");
   z-index: 990000;
 }
 
+@keyframes fade {
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.fade{
+  animation: fade 1s forwards; 
+}
+
 .cycle-wrapper {
   width: 534px;
   height: 260px;
@@ -668,16 +689,3 @@ src: url("./font/Montserrat/Montserrat-Light.ttf");
 	border: 4px dotted #FFC425;
 }
 
-
-@keyframes fade {
-  0%{
-    opacity:1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-.fade{
-  animation: fade 1s forwards; 
-}

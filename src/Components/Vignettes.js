@@ -7,14 +7,15 @@ import PhotosCyclistes from "./Photos"
 *********************************************************/
 
 
-const VignetteParent=(props)=> {
+const VignetteParent=React.forwardRef((props,ref)=> {
+  console.log("VignetteParent",ref)
   return (
-      <div data-id={props.id} style={{background: props.color}} className="vignette" onClick={props._onclick}>
-        <PhotosCyclistes Pictures="photo" _url={props.url} name={props.name}></PhotosCyclistes>
+      <div  data-id={props.id} style={{background: props.color}} className="vignette" onClick={props._onclick}>
+        <PhotosCyclistes ref={ref} Pictures="photo" _url={props.url} name={props.name}></PhotosCyclistes>
           
       </div>
     );
-  }
+  })
 
 export default VignetteParent;
 

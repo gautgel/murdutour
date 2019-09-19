@@ -32,15 +32,39 @@ class Mur extends Component {
   }
   //I use ComponentDidMount in order to update the component at the end of the render as the component is mounted. When it is the case, do this.
   componentDidMount() {
-    this.construction();
-    this.animVignette();
   }
   //ComponentDidUpdate is there when the render is updated,
   componentDidUpdate() {
     if (this.state.isfiche === 0) {
       this.construction();
+      if(this.state.isread===0){
+        let collectionVignette = [...this.refs.containerMur.children]
+      collectionVignette = this.shuffle(collectionVignette);
+      console.log(collectionVignette);
+      TweenMax.staggerTo(collectionVignette,.3,{opacity : 1, delay:4.5},0.03)
+    }else{
+      let collectionVignette = [...this.refs.containerMur.children]
+      TweenMax.set(collectionVignette,{opacity:1});
+    }}
+  }
+
+  shuffle=(array)=>{
+    var currentIndex = array.length, temporaryValue, randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
     }
-    console.log(document.getElementById("photo1"));
+  
+    return array;
   }
 
   construction = () => {
@@ -70,8 +94,6 @@ class Mur extends Component {
   deplacer = () => {
     //the draggable.create function is very easy to use, type of drag, the resistance of the drag, the borders of the drag with window so the window compared to the div wall. it's a greensock pluggin 
     Draggable.create(".mur", {type:"x,y", edgeResistance:0.65, bounds:window});
-
-
 
     // let TopPosDiv = 0;
     // let LeftPosdiv = 0;
@@ -159,28 +181,18 @@ class Mur extends Component {
 
       return (
         <VignetteParent
-          key={`vignette_${index}`}
+          key={`vignette_${item.id}`}
           url={item.url}
           id={item.id}
           name={item.name}
           _onclick={e => this._onclick(e)}
+          ref= {(VignetteParent)=> this.ref = VignetteParent}
         ></VignetteParent>
       );
     });
     /*request a return of the result of the map function  */
     return result;
   };
-
-  animVignette=()=>{
-    let x = document.getElementsByClassName('vignette')
-    for(var i = 0, a = []; i < x.length; i++){
-       a.push(x[i]);
-    }
-   
-
-  console.log(a)
-   TweenMax.to(a, 0.5,{opacity:1});
-  }
   
   //this function allows to generate according to the odd or even number of the index of the array data [0] .fiche with a map function.
   generate = () => {
@@ -229,7 +241,7 @@ class Mur extends Component {
             <div className="linear left"></div>
             <div className="linear right"></div>
             <div className="linear bottom"></div>
-            <div className="mur">
+            <div ref="containerMur" className="mur">
               
               {this.AfficherVignette()}
             </div>
