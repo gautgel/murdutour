@@ -1,0 +1,53 @@
+@media only screen and (max-height : 667px) {
+
+    /* Style pour smartphone classique (portrait et paysage) */
+    .preloader{
+        margin-top:30px;
+    }
+    .wallHeroes{
+    /* width: 320px;
+    height: 640px; */
+    text-align: center;
+    justify-content: center;
+}    
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .settings{
+        font-size: 17px;
+
+    }
+}
+@media only screen and (max-height : 731px) {
+     /* Style pour iphone */
+     .wallHeroes{
+        /* width: 340px;
+        height: 640px; */
+        text-align: center;
+        justify-content: center;
+    }    
+    .title{
+        font-size: 30px;
+    }
+    .settings{
+        font-size: 20px;
+
+    }
+}
+@media only screen and (max-height : 823px) {
+    /* Style pour iphone */
+    .wallHeroes{
+        /* width: 320px;
+        height: 641px; */
+        text-align: center;
+        justify-content: center;
+    }    
+    .title{
+    font-size: 35px;
+   }
+   .settings{
+    font-size: 20px;
+
+   } 
+}
