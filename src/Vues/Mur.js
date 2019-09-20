@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { datas } from "../data/datas";
 import VignetteParent from "../Components/Vignettes";
+import axios from 'axios';
 import Draggable from 'gsap/Draggable';
 import TweenMax from 'gsap/TweenMax';
 import {
@@ -32,6 +33,11 @@ class Mur extends Component {
   }
   //I use ComponentDidMount in order to update the component at the end of the render as the component is mounted. When it is the case, do this.
   componentDidMount() {
+    this.getRiders()
+  }
+
+  getRiders=()=>{
+    axios.get("http://localhost/bddReactPHP/database.php").then(data=>console.log(data.data)).catch(error=>console.log(error));
   }
   //ComponentDidUpdate is there when the render is updated,
   componentDidUpdate() {
@@ -41,7 +47,7 @@ class Mur extends Component {
         let collectionVignette = [...this.refs.containerMur.children]
       collectionVignette = this.shuffle(collectionVignette);
       console.log(collectionVignette);
-      TweenMax.staggerTo(collectionVignette,.3,{opacity : 1, delay:4.5},0.03)
+      TweenMax.staggerTo(collectionVignette,.4,{opacity : 1, delay:4.5},0.06)
     }else{
       let collectionVignette = [...this.refs.containerMur.children]
       TweenMax.set(collectionVignette,{opacity:1});
