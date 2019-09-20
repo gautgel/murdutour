@@ -18,6 +18,30 @@
         font-size: 17px;
 
     }
+    .DivWrapContainer{
+        margin:0;
+        font-size: 30px;
+    }
+    .BlocGauche{
+        font-size:13px;
+        display: flex;
+        flex-direction: column;
+    }
+    .BlocDroit{
+        font-size:13px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rowRight{
+        width:100%;
+    }
+    .rowLeft{
+        width:100%; 
+    }
+    .ReturnButton{
+        background-image: url"(../src/icon.png)";
+        font-size: 14px;
+    }
 }
 @media only screen and (max-height : 731px) {
      /* Style pour iphone */
@@ -33,6 +57,26 @@
     .settings{
         font-size: 20px;
 
+    }
+    .DivWrapContainer{
+        margin:0;
+        font-size: 30px;
+    }
+    .BlocGauche{
+        font-size:13px;
+        display: flex;
+        flex-direction: column;
+    }
+    .BlocDroit{
+        font-size:13px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rowRight{
+        width:100%;
+    }
+    .rowLeft{
+        width:100%; 
     }
 }
 @media only screen and (max-height : 823px) {
@@ -50,4 +94,24 @@
     font-size: 20px;
 
    } 
+   .DivWrapContainer{
+    margin:0;
+    font-size: 30px;
+}
+.BlocGauche{
+    font-size:13px;
+    display: flex;
+    flex-direction: column;
+}
+.BlocDroit{
+    font-size:13px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.rowRight{
+    width:100%;
+}
+.rowLeft{
+    width:100%; 
+}
 }

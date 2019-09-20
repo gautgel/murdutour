@@ -37,10 +37,10 @@ class Mur extends Component {
   }
 
   getRiders=()=>{
-    axios.get("http://localhost/bddReactPHP/database.php").then(data=>console.log(data.data)).catch(error=>console.log(error));
+   // axios.get("http://localhost/bddReactPHP/database.php").then(data=>console.log(data.data)).catch(error=>console.log(error));
   }
   getFiche=()=>{
-    axios.get(`http://localhost/bddReactPHP/fiche.php?id=${this.state.id}`).then(data=>console.log(data.data)).catch(errorFiche=>console.log(errorFiche));
+   //axios.get(`http://localhost/bddReactPHP/fiche.php?id=${this.state.id}`).then(data=>console.log(data.data)).catch(errorFiche=>console.log(errorFiche));
   }
   //ComponentDidUpdate is there when the render is updated,
   componentDidUpdate() {
