@@ -37,10 +37,10 @@ class Mur extends Component {
   }
 
   getRiders=()=>{
-   // axios.get("http://localhost/bddReactPHP/database.php").then(data=>console.log(data.data)).catch(error=>console.log(error));
+    axios.get("http://localhost/murdesheros/database.php").then(data=>console.log(data.data)).catch(error=>console.log(error));
   }
   getFiche=()=>{
-   //axios.get(`http://localhost/bddReactPHP/fiche.php?id=${this.state.id}`).then(data=>console.log(data.data)).catch(errorFiche=>console.log(errorFiche));
+   axios.get(`http://localhost/murdesheros/fiche.php?id=${this.state.id}`).then(data=>console.log(data.data)).catch(errorFiche=>console.log(errorFiche));
   }
   //ComponentDidUpdate is there when the render is updated,
   componentDidUpdate() {
@@ -50,8 +50,7 @@ class Mur extends Component {
       if(this.state.isread===0){
         let collectionVignette = [...this.refs.containerMur.children]
       collectionVignette = this.shuffle(collectionVignette);
-      console.log(collectionVignette);
-      TweenMax.staggerTo(collectionVignette,.3,{opacity : 1, delay:4.5},0.04)
+      TweenMax.staggerTo(collectionVignette,.3,{opacity : 1, delay:4.5},0.04);
       }
       else{
       let collectionVignette = [...this.refs.containerMur.children]
